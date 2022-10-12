@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content collectionGUID="DA8004C5-F4E1-4127-A339-DAB7E8AA18E6">
+  <lastEdited clientType="local-build-20080526" date="2008-05-26 15:00:04 +1200"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Pain&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>A review of the receptors and transmitters involved in the perception, modulation and transmission of pain; and an outline of strategies to control pain.</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Tuesday, 22 April 2008&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>Pain</richText>
+  </textBox>
+</content>

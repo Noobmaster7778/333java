@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>test</title>
+		<link href="styles.css" type="text/css" rel="stylesheet" media="all" />
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="jquery.inc-5.js"></script>
+		<script type="text/javascript"><!--//--><![CDATA[//><!--
+			sfHover = function() {
+				var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+				for (var i=0; i<sfEls.length; i++) {
+					sfEls[i].onmouseover=function() {
+						this.className+=" sfhover";
+					}
+					sfEls[i].onmouseout=function() {
+						this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+					}
+				}
+			}
+			if (window.attachEvent) window.attachEvent("onload", sfHover);
+		//--><!]]></script>
+		<script type="text/javascript" charset="utf-8">
+			$(document).ready(function(){
+			$('#suckerfish').load("suckerfinc.html");
+			});
+		</script>
+	</head>
+	<body>
+	<div id="text">
+	<p>blah, blah, blah</p>
+	<p>blah, blah, blah</p>
+	<p>blah, blah, blah</p>
+	<p>blah, blah, blah</p>
+	<p>blah, blah, blah</p>
+	<p>blah, blah, blah</p>
+	<p>blah, blah, blah</p>
+	<p>blah, blah, blah</p>
+	<p>blah, blah, blah</p>
+	<p>blah, blah, blah</p>
+	<p>blah, blah, blah</p>
+	<p>blah, blah, blah</p>
+	<p>blah, blah, blah</p>
+	<div>
+	<p class="inc:rhubarb.html">more blah</p>
+	</div>
+	</div>
+	<div id="suckerfcont">
+	<div id="suckerfish">
+	<!-- <p onclick="$(this).inc('suckerFinc.html');">Navigation</p> -->
+	<!--
+<OBJECT data="suckerFinc.html" height="300px" width="400px">
+Warning: embed_me.html could not be embedded.
+</OBJECT>
+-->
+	</div>
+	<div>
+	<p>links on this page</p>
+	</div>
+	</div>	
+	</body>
+</html>

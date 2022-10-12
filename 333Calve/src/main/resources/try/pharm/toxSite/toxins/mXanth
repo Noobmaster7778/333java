@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>methylxanthines</title>
+<link href="../toxStyles.css" type="text/css" rel="stylesheet" />
+<link href="../../planticon.ico" rel="shortcut icon" />
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//--><!]]></script>
+</head>
+<body>
+<a id="top"></a>
+<div id="bannerTox">
+  <div class="indent120"> <a href="/toxSite/indexTox.html"><img src="../images/green-cattle-sm.jpg" border="0" /></a></div>
+</div>
+<div id="text">
+  <h1>Methylxanthines</h1>
+  <p>The methylxanthines include caffeine, theobromine and theophylline. In high doses they may cause poisoning to some domestic animals, in particular the dog. Theophylline esters such as aminophylline or etamiphylline are sometimes used clinically in heart or respiratory disease.</p>
+  <h2 id="sources">Sources</h2>
+  <p>Caffeine is present in a range of commonly used foods and drinks including coffee beans, ground coffee, tea, cola soft drinks and a variety of chocolate products. It is also present in some of the over-the-counter stimulants and some diet tablets. Theobromine is also present in cacao beans and powder, chocolate chips, baking chocolate and a range of other chocolate products.</p>
+<p>Poisoning from the theobromine is frequently reported in small dogs after consuming large amounts of chocolate, for which some dogs develop a craving. Baking chocolate contains over 400mg of theobromine per 30g while milk chocolate may contain 44-60mg per 30g.</p>
+  <h2 id="struct">Structure and Formulation</h2>
+  <p></p>
+  <h2 id="tox">Toxicity</h2>
+  <p>The lethal dose of caffeine in the dog varies from 110-200mg/kg body weight, while the median lethal dose (LD50) is 140mg/kg. Consequently, a 20kg dog could receive a toxic dose from ingesting only 10 to 14 caffeine-based stimulant tablets. Although cats are slightly more sensitive, the lethal dose ranging from 80-150mg caffeine/kg body weight, toxicosis is infrequent, apparently due to their more selective eating habits.</p>
+<p>Theobromine was once used as a diuretic and a cardiac stimulant at a therapeutic dose in the dog of 20mg/kg body weight. A dose of 100-250mg/kg body weight is considered lethal, and the LD50 of theobromine in dogs ranges from 250 to 500mg/kg body weight. Consequently, a 10kg dog could be poisoned by eating 70g of baking chocolate or 600g of milk chocolate. Some dogs readily eat a toxic dose of chocolate.</p>
+  <h2 id="pathoph">Pathophysiology</h2>
+  <p>The methylxanthines inhibit <a href="../../studyGuideSite/cardioFiles/cardPDIs.html">phosphodiesterase</a> and thus potentiate the effects of adrenaline and noradrenaline, particularly on the cardiovascular system. ) They are also adenosine A2 receptor antagonists and stimulate the CNS by this mechanism. By comparison with theobromine, caffeine has less effect on cardiac stimulation and coronary artery dilation. However skeletal muscle tone is increased more by caffeine than theobromine.</p>
+    <h2 id="signs"> Clinical signs</h2>
+  <h3>Caffeine</h3>
+<p>The onset of clinical signs usually occurs within 1 to 2 hours of digestion. The main features include: initially, restlessness, hyperactivity, abnormal behaviour and vomiting. With progression, panting, forceful tachycardia, weakness ataxia diuresis and diarrhoea, hyperexcitability, hyperkinesia, muscle tremors and convulsions. Heart rate often 200 per minute with premature ventricular contractions. Hyperthermia and dehydration develop. Cyanosis and coma usually precede death from cardiac and respiratory failure.</p>
+<h3>Theobromine</h3>
+<p>The initial signs can be seen 2 to 4 hours after ingestion and include: restlessness, panting vomiting diuresis and sometimes diarrhoea. Dogs are often presented in an excited state with a marked tachycardia and hyperthermia. As the condition deteriorates cardiac arrythmias, premature ventricular contractions, muscular rigidity hyperreflexia ataxia, terminal seizures and coma are seen. Death may occur from 18 to 24 hours after the onset of cardiac arrhythmias or in some cases be delayed for several days and then occur suddenly from cardiac failure.</p>
+<h3>Theophylline</h3>
+<p>Acute theophylline overdose is characterised by nausea, vomiting and abdominal pain in humans, with other severe effects such as seizures and hypotension.</p>
+  <h2 id="pm"> Post mortem signs </h2>
+  <p>Usually no gross or microscopic lesions are found.</p>
+  <h2 id="diag"> Diagnosis </h2>
+  <p>Clinical signs and history.</p>
+  <p>A useful diagnostic test is to drop a standing dog a few inches from the floor which produces a “bouncing” effect from stimulation of skeletal muscle and the reflex arcs through the spinal chord.</p>
+<h3>Diagnostic Tests</h3>
+<p>Elevated levels of methylxanthines may be detected in stomach contents, plasma, serum urine and the liver of poisoned animals. Theobromine may be detected for 3 to 4 days after exposure. These compounds are stable in plasma or serum for 7 days at room temperature, 14 days if refrigerated and up to 4 months if frozen.</p>
+  <h2 id="diff"> Differential diagnosis </h2>
+  <p></p>
+  <h2 id="treat"> Treatment </h2>
+  <p>There is no specific antidote for methylxanthine poisoning. The goals for treatment should be:
+<ul><li>Sustain basic life support</li>
+    <li>Decrease further absorption</li>
+<li>Increase the excretion of absorbed alkaloid</li>
+<li>Provide symptomatic treatment of seizures, respiratory difficulties and cardiac dysfunction.</li></ul></p>
+  <h2 id="prog"> Prognosis </h2>
+  <p></p>
+  <hr />
+  <h2 id="refs">References</h2>
+  <p>Carson, T.L. (2001). Methylxanthines. In Small Animal Toxicology. Eds Peterson and Talcott. Publn W.B. Saunders Pennsylvania. 563-569.</p>
+</div>
+<div id="suckerfish">
+  <!--Son of Suckerfish menu http://www.htmldog.com-->
+  <ul id="nav">
+    <li><a href="http://calve.massey.ac.nz/">CALVE</a>
+    </li><li><a href="/pharm/indexpharm.html">Home</a>
+    </li><li><a class="daddy" href="/pharm/indexpharm.html">Pharmacology</a>
+      <ul>
+        <li><a class="daddy" href="/pharm/pharmBits/adminfiles/adminIndex3.html">admin sem 1</a>
+          <ul>
+            <li><a href="/pharm/pharmBits/adminfiles/adminAss3.html">Exams</a>
+            </li><li><a href="/pharm/pharmBits/adminfiles/adminWGp3.html">Work groups info</a>
+          </li></ul>
+        </li><li><a href="/pharm/pharmBits/adminfiles/adminIndex3.html">admin sem 2</a>
+      </li></ul>
+    </li><li><a class="daddy" href="/pharm/toxSite/indexTox.html">Toxicology</a>
+      <ul>
+        <li><a class="daddy" href="/pharm/toxSite/poisonplants/index.html">Poisonous plants</a>
+          <ul>
+            <li><a href="/pharm/toxSite/poisonplants/comNames.html">Common names</a>
+            </li><li><a href="/pharm/toxSite/poisonplants/latNames.html">Latin names</a>
+            </li><li><a href="/pharm/toxSite/poisonplants/toxIndex.html">Plant toxins</a>
+          </li></ul>
+        </li><li><a href="/pharm/lectureSite/indexLec.html">Lectures</a>
+      </li></ul>
+    </li><li><a class="daddy" href="/pharm/studyGuideSite/indexSG.html">Study guide</a>
+      <ul>
+        <li><a href="/pharm/studyGuideSite/basicsFiles/basicsIndex.html">Basics</a>
+        </li><li><a href="/pharm/studyGuideSite/PKsFiles/PKsIndex.html">Pharmacokinetics</a>
+        </li><li><a href="/pharm/studyGuideSite/autonFiles/autonIndex.html">Autonomic system</a>
+        </li><li><a href="/pharm/studyGuideSite/CNSFiles/CNSIndex.html">CNS</a>
+        </li><li><a href="/pharm/studyGuideSite/cardioFiles/cardIndex.html">Cardiovascular system</a>
+        </li><li><a href="/pharm/studyGuideSite/InfHoFiles/InfHoIndex.html">Inflammation and Hormones</a>
+        </li><li><a href="/pharm/studyGuideSite/abFiles/abIndex.html">Antibiotics</a>
+        </li><li><a href="/pharm/studyGuideSite/skinFiles/skinIndex.html">Skin</a>
+        </li><li><a href="/pharm/studyGuideSite/lawFiles/lawIndex.html">Law</a>
+      </li></ul>
+    </li><li><a class="daddy" href="/pharm/lectureSite/indexLec.html">Lectures</a>
+      <ul>
+        <li><a href="/pharm/lectureSite/indexLec.html#sem1">Semester 1</a>
+        </li><li><a href="/pharm/lectureSite/indexLec.html#sem2">Smester 2</a>
+        </li><li><a href="/pharm/lectureSite/indexLec.html#nurses">Nurses</a>
+      </li></ul>
+    </li><li><a href="/pharm/formSite/Aform.html">Formulary</a>
+    </li><li><a href="/pharm/casesSite/indexCases.html">Cases</a>
+    </li><li><span class="small">links on this page</span>
+    </li><li><a href="#sources">Sources</a>
+    </li><li><a href="#struct">Structure and Formulation</a>
+    </li><li><a href="#tox">Toxicity</a>
+    </li><li><a href="#pathoph">Pathophysiology</a>
+    </li><li><a href="#signs">Clinical Signs</a>
+    </li><li><a href="#pm">Post Mortem Signs</a>
+    </li><li><a href="#diag">Diagnosis</a>
+    </li><li><a href="#diff">Differential Diagnoses</a>
+    </li><li><a href="#treat">Treatment</a>
+    </li><li><a href="#prog">Prognosis</a>
+    </li><li><a href="#refs">References</a>
+  </li></ul>
+</div>
+<div id="topMenuA">
+  <ul>
+    <li><a href="/pharm/toxSite/poisonplants/index.html">Plants</a> </li>
+    <li><a href="../../comNames.html">common names</a> </li>
+    <li><a href="../../latNames.html">Latin names</a> </li>
+    <li><a href="../../toxIndex.html">Plant toxins</a> </li>
+    <li><a href="../../glossary.html">Glossary</a> </li>
+    <li><a href="/pharm/toxSite/indexTox.html">Toxicology</a> </li>
+  <li><a href="/pharm/search/search.asp">Search</a> </li></ul>
+</div>
+<div class="indent120">
+  <!-- #BeginDate format:Sw1 -->20 June, 2007<!-- #EndDate -->
+</div>
+<br />
+<div id="logo"></div>
+<div id="gototop"> <a href="#top"><b>top</b></a></div>
+</body>
+</html>

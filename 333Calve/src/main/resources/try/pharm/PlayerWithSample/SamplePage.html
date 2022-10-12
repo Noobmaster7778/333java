@@ -1,0 +1,28 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>FLVPlayer</title>
+
+</head>
+<body>
+
+<script type="text/javascript" src="swfobject.js"></script>
+
+		<div id="flashcontent2">
+		<strong>You need to upgrade your Flash Player. To update, visit the  <a href="http://www.adobe.com/getflash">Adobe</a> site and click the "Get Flash Player" option.</strong>
+	</div>
+		<script type="text/javascript">
+		// <![CDATA[
+		
+		var so = new SWFObject("FLVPlayer.swf", "sotester", "480", "410", "8", "#000000");
+		so.addVariable("FLVPath", "Sample1.flv");
+		// Next line is optional
+		// so.addVariable("skinPath","<skin path>")  // eg: /_COURSEID_/My-Files
+		so.useExpressInstall('expressinstall.swf');
+		so.write("flashcontent2");
+		
+		// ]]>
+	</script>
+
+</body>
+</html>

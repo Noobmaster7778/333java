@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Angel's trumpet</title>
+			<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+			<link href="../../plantStyles3.css" type="text/css" rel="stylesheet" />
+			<link href="../../planticon.ico" rel="shortcut icon" />
+			<link rel="stylesheet" href="../../scripts/magnific-popup.css">
+			<script src="../../scripts/jquery-1.10.1.min.js"></script>
+			<script src="../../scripts/jquery.magnific-popup.min.js"></script>
+	</head>
+
+	<body>
+		<a id="top"></a>
+		<div id="bannerTox">
+		  <a href="../../../indexTox.html"><img src="../../images/pl-gr-cattle.gif" /></a>
+		</div>
+
+		<div id="photos">
+		  <div align="center"> Click on photos to enlarge</div>
+		  <br />
+		  <br />
+		  <div class="popup-gallery">
+				<div id="photosLeft">
+				<!-- no photos yet
+					<a href="photos/pic.jpg" title="plant"><img src="photos/picsm.jpg" /><br />
+						plant</a>
+							<a href="#"><img src="#"><br>
+							leaves</a>
+							<a href="#"><img src="#"><br>
+							fruit</a>
+							<a href="#"><img src="#"><br>
+							more</a> --></div>
+				<div id="photosRight">
+					<a href="fl-big.jpg" title="Flowers (December, Manawatu)."><img src="fl-sm.jpg" /><br />
+						flowers</a> <!-- no photos yet
+						<a href="photos/flCuBig.jpg" title="flower."><img src="photos/FlCusm.jpg" /><br />
+						flowers</a>
+							<a href="#"><img src="#"><br>
+							df</a>
+							<a href="#"><img src="#"><br>
+							more</a> --></div>
+			</div>
+		</div>
+			<div id="text">
+				<h1 class="commonname">Red Angel's Trumpet</h1>
+				<p class="Latinname">Brugmansia sanguinea </p>
+				<h2>Other names</h2>
+				<p>Scarlet angel's trumpet, scarlet datura <em>(Datura sanguinea)</em></p>
+				<h2 id="desc">Description</h2>
+				<p>It is an open, evergreen shrub or tree with bright green, wavy-margined leaves and long, tubular, orange-red, yellow-veined flowers from
+late spring to autumn</p>
+				<h2 id="simPl">Similar plants</h2>
+				<p><a href="../thorn_apple/th_app.html"><em>Datura</em> spp.</a></p>
+				<h2 id="dist">Distribution</h2>
+				<p>This plant is native to regions of subtropical South America, commonly grown in gardens. They occasionally escape, probably in plant
+clippings, as they are not thought to produce seeds in NZ.</p>
+				<h2 id="tox">Toxin</h2>
+				<p>The alkaloids hyoscyamine, hyoscine and atropine are found in all parts of the plant, especially the seeds.</p>
+				<h2 id="spec">Species affected</h2>
+				<p>Cattle, sheep, horses, buffalo, goats, pigs</p>
+				<h2 id="clinSiAc">Clinical signs acute</h2>
+				<p>Reddening of the skin (human), dilatation of the pupils,
+nausea, drowsiness, agitation, rapid and irregular heartbeat, hallucinations
+(human), highly abnormal behaviour. In horses, polydipsia, polyuria, and
+diarrhoea have been noted, while impaired vision and intermittent muscle
+spasms have been noted in ponies.
+				<h2 id="clinSiCh">Clinical signs chronic</h2>
+				<p> Convulsions, coma, and death</p>
+				<h2 id="pm">Post mortem signs</h2>
+				<p>Haemorrhages of liver, kidney, and heart; congested blood
+vessels in the lungs; presence of plant material in stomach</p>
+				<h2 id="diag">Diagnosis</h2>
+				<p>History</p>
+				<h2 id="diff">Differential diagnosis</h2>
+				<p></p>
+				<h2 id="treat">Treatment</h2>
+				<p>Symptomatic care; anticholinesterases in serious cases</p>
+				<h2 id="prog">Prognosis</h2>
+				<p>Good if leaves/flowers are ingested, as these have an extremely bitter taste that would deter further ingestion; seeds are highly toxic with poor prognosis.</p>
+				<h2 id="prev">Prevention</h2>
+				<p>Plant removal from paddocks </p>
+				<hr />
+				<h2 id="refs">References</h2>
+				<p class="references"></p>
+			</div>
+<div id="suckerfish"></div>
+<div id="topMenuA"></div>
+ 
+  <script type="text/javascript">
+  var date = new Date(document.lastModified);
+  document.write("Last Updated: "+date.getHours()+":"+(date.getMinutes() < 10 ? "0":"")+""+date.getMinutes() +" " +date.getDate()+ "/"+ (date.getMonth()+1)+ "/" + date.getFullYear());
+  </script>
+<br />
+<div id="logo"></div>
+<div id="gototop"> <a href="#top"><b>top</b></a></div>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') ;
+			}
+		}
+	});
+	$('#suckerfish').load("../../Scripts/suckerfincP.html");
+	$('#topMenuA').load("../../Scripts/topMenuAinc.html");
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<drugsA>
+	<drug>
+		<BAN>acetazolamide</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>carbonic anhydrase inhibitor</class>
+		<indication>glaucoma, (epilepsy)</indication>
+		<contraInd>significant hepatic disease, renal or adrenocortical insufficiency, electrolyte imbalance, severe pulmonary obstruction, long term use in chronic non-congestive, angle-closure glaucoma</contraInd>
+		<sideEffects>gut disturbances, sedation, depression, excitement, bone marrow depression, crystalluria, dysuria, polyuria, hypokalaemia, hyponatraemia, hyperglycaemia</sideEffects>
+		<care></care>
+		<pks>absorption: onset of action 30 minutes, peak at 2-4 hours, duration of action 4-8 hours; metabolism and elimination; within 24 hours of administration, about 90% of the drug is excreted unchanged by tubular secretion and passive resorption processses</pks>
+		<dose>adjunctive therapy of glaucoma: dog: 10 - 25 mg/kg po divided 2 - 4 times daily; cat: 50 mg/kg once iv, 7 mg/kg po divided 2 - 3 times daily</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+	
+	<drug>
+		<BAN>acetylcysteine</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>sulphydryl donator anti-oxidant</class>
+		<indication>paracetamol toxicity</indication>
+		<contraInd></contraInd>
+		<sideEffects></sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>dog, cat: 140mg/kg iv then 70mg/kg iv or po every 4 hours for 5 doses</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+	
+	<drug>
+		<BAN>adrenaline</BAN>
+		<USAN>epinephrine</USAN>
+		<INN>epinephrine</INN>
+		<class>adrenergic agonist - inotrope, vasoconstrictor</class>
+		<indication>acute heart failure, anaphylaxis</indication>
+		<contraInd></contraInd>
+		<sideEffects>tachyarrhythmias, vasoconstriction</sideEffects>
+		<care>monitor ECG if possible</care>
+		<pks></pks>
+		<dose>dilute to 1:10,000 (100mcg/mL); emergency inotrope, anaphylaxis: 20mcg/kg sc, or, 5 - 20mcg/kg iv, or, 20 - 100mcg/kg intratracheal, or as a last resort, 2mcg/kg intracardiac; inotrope: 1 - 10mcg/kg/min iv infusion - monitor ECG</dose>
+		<plasmaL></plasmaL>
+		<notes>decomposes rapidly in light and heat - do not use after expiry date</notes>
+	</drug>
+
+<drug>
+		<BAN>alfentanil</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>opioid analgesic, controlled drug B3</class>
+		<indication>supplementing analgesia during anaesthesia, reducing dose of induction agent</indication>
+		<contraInd></contraInd>
+		<sideEffects>bradycardia; respiratory depression - IPPV</sideEffects>
+		<care>must have equipment for IPPV handy</care>
+		<pks></pks>
+		<dose>dog: 5 - 10mcg/kg slowly iv lasts about 5 min</dose>
+		<plasmaL></plasmaL>
+		<notes>give some atropine with it</notes>
+	</drug>
+
+<drug>
+		<BAN>amikacin</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>aminoglycoside antibiotic</class>
+		<indication>serious G- infections, including Pseudomonas</indication>
+		<contraInd></contraInd>
+		<sideEffects>toxic to kidneys and ears</sideEffects>
+		<care>monitor BUN</care>
+		<pks></pks>
+		<dose>dogs: 15 - 30mg/kg iv or im or sc daily; cats: 10 - 15mg/kg iv or im or sc daily; foals: 20 - 25mg/kg iv or im daily; adult horses: 10mg/kg iv or im daily</dose>
+		<plasmaL></plasmaL>
+		<notes>break point 16mcg/mL</notes>
+	</drug>
+
+<drug>
+		<BAN>amiloride</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>potassium sparing diuretic</class>
+		<indication>resistant oedema, prevention of hypokalaemia in diuresis</indication>
+		<contraInd>kidney disease, metabolic acidosis, diabetes</contraInd>
+		<sideEffects>hyperkalaemia with prolonged use</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>dog, cat: 1 - 2mg/kg po daily</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+
+<drug>
+		<BAN>aminophylline</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>methylxanthine phosphodiesterase inhibitor</class>
+		<indication>respiratory disease for bronchodilatation, mild heart failure</indication>
+		<contraInd></contraInd>
+		<sideEffects>restlessness, agitation, vomiting,; diarrhoea, tachyarrhythmias</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>dog, cat: 10 mg/kg 3 times daily</dose>
+		<plasmaL></plasmaL>
+		<notes>ethylenediamine salt of theophylline; may be better to use slow release theophylline capsules instead</notes>
+	</drug>
+
+<drug>
+		<BAN>amiodarone</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>class 3 antiarrhythmic</class>
+		<indication>supraventricular and ventricular arrhythmias</indication>
+		<contraInd>bradycardia, thyrotoxicosis</contraInd>
+		<sideEffects></sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>dog: 10 - 20 mg/kg iv, 10mg/kg po twice daily</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+
+<drug>
+		<BAN>amitriptyline</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>tricyclic antidepressant, NMDA blocker</class>
+		<indication>inappropriate marking in cats, various behavioural problems in dogs, chronic pain?</indication>
+		<contraInd>glaucoma or urinary retention problems</contraInd>
+		<sideEffects>largely the peripheral effects of excess noradrenaline and muscarinic blockade, ie, dry mouth, thirst, frequent urination, mild gastrointestinal effects, constipation, syncope, arrhythmias</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>cat: 0.5 - 1mg/kg daily; dog: 1 - 2mg/kg 1 - 2 times daily</dose>
+		<plasmaL></plasmaL>
+		<notes>Do not break tablet as it tastes bitter; use in combination with behaviour treatment - carry on for 3 weeks after inappropriate marking has stopped then taper off over 2 weeks</notes>
+	</drug>
+
+<drug>
+		<BAN>amlodipine</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>dihydropyridine calcium channel blocker</class>
+		<indication>hypertension, especially cats</indication>
+		<contraInd>low cardiac output, hypotension, shock</contraInd>
+		<sideEffects>ataxia and lethargy</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>cat: 200mcg/kg po once daily</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+
+<drug>
+		<BAN>ammonium chloride</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>urine acidifier</class>
+		<indication></indication>
+		<contraInd></contraInd>
+		<sideEffects></sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>dog: 100mg/kg po 1 - 2 times daily; horse: 20mg/kg po 1 - 2 times daily</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+
+<drug>
+		<BAN>amphotericin B</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>antifungal</class>
+		<indication>systemic fungal infections</indication>
+		<contraInd>kidney disease</contraInd>
+		<sideEffects>nephrotoxicity</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>dog, cat: 0.15 - 1mg/kg by iv infusion three times weekly</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+
+<drug>
+		<BAN>asparaginase</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>anticancer drug</class>
+		<indication>good induction agent for lymphoma</indication>
+		<contraInd></contraInd>
+		<sideEffects>Can cause anaphylaxis (pretreat with diphenhydramine (1mg/kg sc) +/- dexamethasone (0.25mg/kg sc) thirty minutes prior to use) rarely pancreatitis and mild coagulopathies</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>400 iu/kg sc or ip as needed at weekly intervals</dose>
+		<plasmaL></plasmaL>
+		<notes>crisantaspase (BAN) is the commercial asparaginase produced from a culture of Erwinia chrysanthemi</notes>
+	</drug>
+	
+	<drug>
+		<BAN>aspirin</BAN>
+		<USAN>aspirin</USAN>
+		<INN></INN>
+		<class>NSAID</class>
+		<indication>inflammation and pain, thromboembolic disorders</indication>
+		<contraInd>bleeding</contraInd>
+		<sideEffects>gastric ulceration in every case, kidney failure rarely</sideEffects>
+		<care></care>
+		<pks>rapidly metabolised by cattle</pks>
+		<dose>pain: dog: 10mg/kg po twice daily max 5 days; cat: 10mg/kg po every other day max 5 days; cattle: 100mg/kg po twice daily; pig: 10mg/kg po four times daily; clotting disorders: dog, cat: 0.5 - 3mg/kg every three days</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+	
+	<drug>
+		<BAN>atenolol</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>&#946; blocker</class>
+		<indication>supraventricular tachycardias</indication>
+		<contraInd>AV block, sick sinus syndrome, asthma or airway disease</contraInd>
+		<sideEffects>bronchospasm, bradycardia, hypotension</sideEffects>
+		<care>negative inotrope - care in CHF, reduce dose in liver or kidney disease</care>
+		<pks></pks>
+		<dose>dog: 100 - 200mcg/kg po once or twice daily; cat: 1 - 2mg/kg po once or twice daily</dose>
+		<plasmaL></plasmaL>
+		<notes>do not give with quinidine</notes>
+	</drug>
+	
+	<drug>
+		<BAN>atracurium</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>competitive muscle relaxant</class>
+		<indication>muscle relaxation during anaesthesia</indication>
+		<contraInd>conscious animal</contraInd>
+		<sideEffects>apnoea - use IPPV</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>dog: 0.3 - 0.5 mg/kg iv lasts 20 - 30 min, top up 0.1mg/kg; horse: 0.04 mg/kg iv</dose>
+		<plasmaL></plasmaL>
+		<notes>broken down by Hofmann degradation - no liver function necessary</notes>
+	</drug>
+	
+	<drug>
+		<BAN>atropine</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>antimuscarinic</class>
+		<indication>anaesthetic premedication in cats (and pigs?) and when irritant anaesthetics like ether are being used, treating gut spasm, treating bradycardia, organophosphate poisoning</indication>
+		<contraInd>glaucoma, tachycardia</contraInd>
+		<sideEffects>dries secretions, reduces salivation, slows gut, tachycardia, dilates pupil, blurred vision, difficulty with urination</sideEffects>
+		<care>care in cardiac disease, horses - cycloplegia often causes panic, ruminants - blocks parotid secretions but not submandibular - very sticky saliva</care>
+		<pks></pks>
+		<dose>anaesthetic premed: all species: 20 - 50mcg/kg sc / im; bradycardia: 5 - 20mcg/kg iv - effects last about 15 mins (glycopyrrolate better if available); organophosphate poisoning: 25 - 200mcg/kg sc every 3 - 4 hours</dose>
+		<plasmaL></plasmaL>
+		<notes>Rabbits possess an enzyme which breaks atropine down rapidly - it is too short acting to be of much use in this species.</notes>
+	</drug>
+	
+	<drug>
+		<BAN>azathioprine</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>immunosuppressant, anticancer drug</class>
+		<indication>long term, moderately potent immunosuppression, to allow reduction in steroid dose</indication>
+		<contraInd></contraInd>
+		<sideEffects>bone marrow suppression</sideEffects>
+		<care>A complete blood count should be performed every 10- 14 days for the first 2-3 months of therapy and should be repeated at monthly to bimonthly intervals thereafter. stop drug if marked neutropaenia or thrombocytopaenia develop.</care>
+		<pks></pks>
+		<dose>dog: 1-1.5 mg/kg once daily for 2 weeks then every other day as needed; cat: 0.3-0.5 mg/kg every other day</dose>
+		<plasmaL></plasmaL>
+		<notes>takes several weeks to work</notes>
+	</drug>
+	
+	<drug>
+		<BAN>azithromycin</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>azalide antibiotic (macrolide type)</class>
+		<indication>mainly G+ infections; Chlamydia infection in cats; Rhodococus equi infection in foals</indication>
+		<contraInd></contraInd>
+		<sideEffects></sideEffects>
+		<care></care>
+		<pks>half life 35 hours</pks>
+		<dose>cat: 5mg/kg by mouth once; foal: 10mg/kg po once daily, then every other day after response seen</dose>
+		<plasmaL></plasmaL>
+		<notes>break point 2mcg/mL</notes>
+	</drug>
+	
+</drugsA>

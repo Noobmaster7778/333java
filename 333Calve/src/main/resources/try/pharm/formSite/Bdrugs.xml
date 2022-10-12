@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<drugsB>
+	<drug>
+		<BAN>bacitracin</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>polypeptide antibiotic</class>
+		<indication>Gram + and some spirochaetes; feed additive, topical (eye, skin ointment)</indication>
+		<contraInd></contraInd>
+		<sideEffects>nephrotoxicity</sideEffects>
+		<care></care>
+		<pks>not absorbed from gut</pks>
+		<dose></dose>
+		<plasmaL></plasmaL>
+		<notes>banned in Europe; 1 unit = 26µg</notes>
+	</drug>
+	
+<drug>
+		<BAN>benazepril</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class></class>
+		<indication></indication>
+		<contraInd></contraInd>
+		<sideEffects></sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose></dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+
+<drug>
+		<BAN></BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class></class>
+		<indication></indication>
+		<contraInd></contraInd>
+		<sideEffects></sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose></dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+
+<drug>
+		<BAN></BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class></class>
+		<indication></indication>
+		<contraInd></contraInd>
+		<sideEffects></sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose></dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+
+<drug>
+		<BAN></BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class></class>
+		<indication></indication>
+		<contraInd></contraInd>
+		<sideEffects></sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose></dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+	
+	
+</drugsB>

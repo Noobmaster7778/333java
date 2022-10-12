@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content collectionGUID="DA8004C5-F4E1-4127-A339-DAB7E8AA18E6">
+  <lastEdited clientType="local-build-20080526" date="2008-05-26 15:00:16 +1200"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Inhalation Anaesthetics&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>A brief overview of the pharmacology of inhalation anaesthetics, including pharmacokinetics and the properties of the drugs which influence their administration. Fish anaesthesia is also mentioned.</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Friday, 2 May 2008&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>Inhalation Anaesthetic Drugs</richText>
+  </textBox>
+</content>

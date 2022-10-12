@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<title>formulary A</title>
+		<link href="../pharmBits/favicon.png" rel="shortcut icon">
+		<link href="formStyles.css" rel="stylesheet" type="text/css" media="all">
+		<meta name="keywords" content="acetazolamide, acetylcysteine, adrenaline, alfentanil, amikacin, amiloride, aminophylline, amiodarone, amitriptyline, amlodipine, ammonium chloride, amphotericin B, asparaginase, aspirin, atenolol, atracurium, atropine, azathioprine, azithromycin">
+	<script type="text/javascript" src="../Scripts/xpath.js"></script>
+	<script type="text/javascript" src="../Scripts/SpryData.js"></script>
+	<script type="text/javascript">
+        var dsDrugsA = new Spry.Data.XMLDataSet("Adrugs.xml", "drugsA/drug");
+    </script>
+</head>
+
+<body>
+		<a id="top" name="top"></a>
+	<div id="banner"><img src="images/clouds2.jpg" alt="formBanner" /><div id="bannerText">Information on doses for drugs licensed for use in animals should be obtained from the IVS or the manufacturer&rsquo;s data sheet. The information here is intended as a guide only. Remember, unlicensed drugs are given on your responsibility. Remember withholding times in food animals too. The list of drugs available in NZ (and their price!) is subject to change. Errors and omissions, <a href="mailto:J.P.Chambers@massey.ac.nz">email me.</a></div>
+	</div>
+	
+	<div id="ajax">
+	   <div id="drugsdiv" spry:region="dsDrugsA">
+	   	<h2 spry:sort="BAN">drug</h2>
+	   	<p>Click for details.</p>
+	   	<p spry:repeat="dsDrugsA"  spry:setrow="dsDrugsA"><strong>{BAN}</strong></p>
+	   </div>
+	
+    <div id="sidebar" spry:detailregion="dsDrugsA"> 
+    <p>
+    	<span class="drugname">{BAN}</span><br />
+    	<em>USAN</em> {USAN}<br />
+    	<em>INN</em> {INN}<br />
+		<span class="header">class</span><br />{class}<br />
+		<span class="header">indications</span><br />{indication}<br />
+		<span class="header">contra-indications</span><br />{contraInd}<br />
+		<span class="header">side effects</span><br />{sideEffects}<br />
+		<span class="header">care</span><br />{care}<br />
+		<span class="header">pharmacokinetics</span><br />{pks}<br />
+		<span class="header">dose</span><br />{dose}<br />
+		<span class="header">plasma levels</span><br />{plasmaL}<br />
+		<span class="header">notes</span><br />{notes}</p>	
+    </div>
+  </div>
+  	
+  	<div id="navn">
+	    <ul>
+	        <li><a href="Aform.html">A</a><a href="Bform.html">B</a><a href="Cform.html">C</a></li>
+	        <li><a href="Dform.html">D</a><a href="Eform.html">E</a><a href="Fform.html">F</a></li>
+	        <li><a href="Gform.html">G</a><a href="Hform.html">H</a><a href="Iform.html">I</a></li>
+	        <li><a href="Jform.html">J</a><a href="Kform.html">K</a><a href="Lform.html">L</a></li>
+	        <li><a href="Mform.html">M</a><a href="Nform.html">N</a><a href="Oform.html">O</a></li>
+	        <li><a href="Pform.html">P</a><a href="Qform.html">Q</a><a href="Rform.html">R</a></li>
+	        <li><a href="Sform.html">S</a><a href="Tform.html">T</a><a href="Uform.html">U</a></li>
+	        <li><a href="Vform.html">V</a><a href="Wform.html">W</a><a href="Xform.html">X</a></li>
+	        <li><a href="Yform.html">Y</a><a href="Zform.html">Z</a></li>
+	    </ul>
+	
+	    <div id="buttons">
+	        <a href="../indexpharm.html"><img src="../PharmBut.gif" border="0" /></a><br /><br />
+	        <a href="../toxSite/indexTox.html"><img src="../ToxBut.gif" height="21" border="0" /></a><br /><br />
+	          <a href="indexSG.html"><img src="../SGbut.gif" height="21" border="0" /></a><br /><br />
+	          <a href="../lectureSite/indexLec.html"><img src="../LecBut.gif" height="21" border="0" /></a><br /><br />
+	         <a href="../formSite/Aform.html" target="_blank"><img src="../FormBut.gif" height="21" border="0" /></a><br /><br />
+	          <a href="../casesSite/indexCases.html"><img src="../CaseBut.gif" height="21" border="0" /></a>
+	   	  </div>
+	</div>	
+  	
+  		</div>
+
+	<div id="footer">
+		<p>If you can't read this page, click <a href="AformOld.html">here</a>.</p>
+		<div id="logo">copyright Massey University</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+COMPND     acetone
+ATOM      1  C1  ORG     1       0.000   0.175   0.000 
+ATOM      2  O2  ORG     1       0.000   1.411   0.000 
+ATOM      3  C3  ORG     1      -1.265  -0.625   0.000 
+ATOM      4  H4  ORG     1      -1.311  -1.326   0.997 
+ATOM      5  H5  ORG     1      -2.251   0.134   0.000 
+ATOM      6  H6  ORG     1      -1.311  -1.326  -0.997
+ATOM      7  C7  ORG     1       1.265  -0.609   0.000 
+ATOM      8  H8  ORG     1       1.855  -0.375  -0.881 
+ATOM      9  H9  ORG     1       1.855  -0.375   0.881
+ATOM     10  H10 ORG     1       1.062  -1.687   0.000 
+CONECT    1    2    2    3
+

@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>index</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="caseStyles.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" SRC="moveobj.js"> </script>
+<script>
+
+/*
+Floating image script
+By Virtual_Max (http://www.geocities.com/siliconvalley/lakes/8620)
+Permission granted to Dynamicdrive.com to feature it in it's archive
+For 100's of FREE DHTML scripts and components,
+Visit http://dynamicdrive.com
+*/
+
+
+var chip1;
+var chip2;
+
+//add or delete more variables, depending on how many images you're using
+
+function pagestart()
+{checkbrOK(); 
+ chip1=new Chip("chip1",60,80);
+ chip2=new Chip("chip2",60,80);
+ 
+ //add or delete more of the above, depending on how many images you're using
+ if(brOK) 
+   { movechip("chip1");
+   movechip("chip2"); 
+	 
+     //add or delete more of the above, depending on how many images you're using
+   }
+}
+</script>
+</head>
+
+<body class="backGr" onLoad="pagestart();" onUnload="if(brOK) {stopme('chip1'); stopme('chip2'); stopme('chip3');}" >
+<DIV ID="chip1" STYLE="position:absolute; width:47; height:68;"><a href="pig/fred.html"><img src="lino-pig-pink.gif" border=0></a> 
+</DIV>
+<DIV ID="chip2" STYLE="position:absolute; width:47; height:68;"><a href="feral_cat/cat3.html"><img src="cat.gif" border=0></a> 
+</DIV>
+<table width="90%" height="105" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr bgcolor="#FFFFFF"> 
+    <td height="105" colspan="2" class="caseBoxBg">&nbsp; </td>
+    <td width="93%" height="105" class="caseBoxBg"><img src="blu-cattle.jpg" width="502" height="107"></td>
+  </tr>
+</table>
+<p class="header2">&nbsp;</p>
+<p class="header2">Pharmacology cases</p>
+<p class="bodytext">choose one:</p>
+<ul>
+  <li class="bodytext"><a href="feral_cat/cat3.html" class="bodytext">Weazand 
+    Slitter</a> the cat</li>
+  <li class="bodytext"><a href="pig/fred.html">Fred</a> the pig</li>
+  <li class="bodytext">No. 876 the cow</li>
+</ul>
+<table width="90%" border="0" align="center">
+  <tr align="center"> 
+    <td> <a href="../indexpharm.html"><img src="../PharmBut.gif" width="100" height="21" border="0"></a></td>
+    <td><a href="../toxSite/indexTox.html"><img src="../ToxBut.gif" width="100" height="21" border="0"></a></td>
+    <td><a href="../studyGuideSite/indexSG.html"><img src="../SGbut.gif" width="100" height="21" border="0"></a></td>
+    <td><a href="../lectureSite/indexLec.html"><img src="../LecBut.gif" width="100" height="21" border="0"></a></td>
+    <td><a href="../formSite/Aform.html" target="_blank"><img src="../FormBut.gif" width="100" height="21" border="0"></a></td>
+    <td><a href="indexCases.html"><img src="../CaseBut.gif" width="100" height="21" border="0"></a></td>
+  </tr>
+</table>
+<br>
+<table width="90%" border="0" align="center" cellpadding="2" cellspacing="0">
+  <tr bgcolor="#FFFFFF"> 
+    <td width="50%" class="commonname"><img src="../pharmBits/images/mulogo.gif" width="170" height="25"></td>
+    <td width="50%" align="right" class="references"><div align="right">copyright 
+        Massey University</div></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/*
+body {
+	font-family:Arial,sans-serif;
+	font-size:12px;
+	line-height:16px;
+	text-shadow:0 1px 1px #fff;
+}
+*/
+label{
+	cursor:pointer;
+	display:block;
+	float:left;
+	font-size:13px;
+	font-weight:bold;
+	line-height:28px;
+	margin-bottom:5px;
+	width:180px;
+}
+form p:hover label{
+	color:blue;
+}
+form p:hover label:after{
+	content:" >";
+}
+.text input{
+	color: #781351;
+	background: #ADFF2F;
+	border: 1px solid #781351;
+	width:50px;
+}
+
+legend{
+color: #000;
+background: #87CEFA;
+border: 1px solid #781351;
+padding: 2px 6px
+}
+fieldset{
+	width:300px;
+	background:LightCyan;
+	border: 1px solid blue;
+}
+#totalMarks {
+	color: red;
+	font-size:18px;
+	text-shadow:0 1px 0 #yellow;
+	font-weight:bold;
+	background:yellow;
+}

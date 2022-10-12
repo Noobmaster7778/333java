@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Anaesthesia Simulator 3</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/sim.css" title="" type="text/css" media="screen" charset="utf-8">
+		<script charset="utf-8">
+			function updateSlider(slideAmount) {
+			//get the element
+var display = document.getElementById("chosen");
+//show the amount
+display.innerHTML=slideAmount;
+}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+	<h1>Fluffy 3</h1>
+		<h2>Induction</h2>
+		<h3>What drug?</h3>
+			<form action="sim.html" method="" accept-charset="utf-8">
+				<select name="induction">
+				  <option value="prop" selected>propofol</option>
+				  <option value="alph">alphaxalone</option>
+				  <option value="thio">thiopentone</option>
+				</select>
+			</form>
+		<h3>How fast?</h3>
+		<div id="slider">
+5 sec <input id="slide" type="range"
+ min="5" max="200" step="5" value="100"
+ onchange="updateSlider(this.value)" />
+ 200 sec
+</div><br/>
+<div id="chosen">60 seconds</div>
+			<br />
+			<br />
+			<a href="sim4.html" class="button">Give the drugs</a></button>
+	</div>
+	</body>
+</html>

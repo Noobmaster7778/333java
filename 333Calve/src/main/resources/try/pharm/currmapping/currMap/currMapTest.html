@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>test</title>
+		<script src="scripts/jQuery3.4.0.js"></script>
+		<link rel="stylesheet" href="css/currMap.css" type="text/css" media="screen">
+	</head>
+	<body>
+		<h1>227.314 Introductory Clinical Studies</h1>
+		<h2 class="link">Pharmacology</h2>
+		<p class="hidden">hello</p>
+		<ul>
+			<li>Intro</li>
+			<li>PKs</li>
+				<ul>
+					<li>absorption</li>
+					<li>distribution</li>
+					<li>metabolism</li>
+					<li>elimination</li>
+				</ul>
+			<li>antibiotics 1</li>
+		</ul>
+		<h2>Anaesthesia</h2>
+		<ul>
+			<li>intro</li>
+			<li>premedication</li>
+		</ul>
+		<h2>Surgery</h2>
+		<h2>Radiology</h2>
+		<div id="suckerfish"></div>
+
+		<script>
+$( "h2" ).hover(
+  function() {
+    $( "li" ).show(500);
+  }, function() {
+    $( "li" ).hide();
+  }
+);  
+
+  </script>
+	</body>
+</html>

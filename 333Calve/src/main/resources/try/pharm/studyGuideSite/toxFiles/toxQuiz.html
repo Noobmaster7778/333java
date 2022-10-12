@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html> 
+<head> 
+	<title>Toxicology MCQ</title> 
+	<link rel="stylesheet" type="text/css" href="../../pharmBits/jQuizMe.css"/>
+	<link href="../sgStyles2.css" rel="stylesheet" type="text/css" />
+	<link href="../favicon.png" rel="shortcut icon" />
+	<script type="text/javascript" src="../../Scripts/jquery.js"></script>
+	<script type="text/javascript"><!--//--><![CDATA[//><!--
+
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//--><!]]></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$('#suckerfish').load("../../Scripts/suckerfinc.html");
+		});
+	</script>
+</head> 
+<body>
+<a id="top"></a>
+<div id="bannerSG">
+  <div class="indent120"><img src="../images/red-cattle.jpg" border="0" /></div>
+  </div>
+<div id="text">
+  <h1>Multiple choice questions</h1>
+  <p>Choose the single best answer. The pass mark is 50% and each question should take no more than one minute.</p> 
+	<div id="quizArea"></div>
+	<p><input onclick="history.go(-1)" type="Button" value="Previous Page"></p>
+<div id="suckerfish"></div>
+<h2> <a href="autonIndex.html">4 Autonomic index</a></h2>
+  <div class="butNav"><a href="../../indexpharm.html"><img src="../../PharmBut.gif" height="21" border="0" /></a></div>
+  <div class="butNav"><a href="../../toxSite/indexTox.html"><img src="../../ToxBut.gif" height="21" border="0" /></a></div>
+  <div class="butNav"><a href="../indexSG.html"><img src="../../SGbut.gif" height="21" border="0" /></a></div>
+  <div class="butNav"><a href="../../lectureSite/indexLec.html"><img src="../../LecBut.gif" height="21" border="0" /></a></div>
+  <div class="butNav"><a href="../../formSite/Aform.html" target="_blank"><img src="../../FormBut.gif" height="21" border="0" /></a></div>
+  <div class="butNav"><a href="../../casesSite/indexCases.html"><img src="../../CaseBut.gif" height="21" border="0" /></a></div>
+  <div id="logo">
+    <div align="right">copyright Massey University</div>
+  </div>
+  <div id="gototop"><a href="#top"><b>top</b></a></div>
+  </div>   
+ 
+
+<script type="text/javascript" src="../../scripts/jQuizMe-compressed.js"></script> 
+<script type="text/javascript"> 
+$( function($){
+	var quiz = {		
+		multiList: [
+			{
+				ques: "convulsions in a dog caused by eating metaldehyde should be treated with",
+				ans: "diazepam iv",
+				ansSel: ["manual restraint", "no treatment needed", "oxygen", "phenobarbitone tablets twice daily"],
+				ansInfo: ["Convulsions from any cause should be treated urgently with diazepam iv. Phenobarbitone iv can be used later if they recur, as is likely with metaldehyde."],
+			},
+/*
+			{
+				ques: "question",
+				ans: "answer",
+				ansSel: ["selection", "selection", "selection","selection"],
+				ansInfo: ["feedback."],
+			},
+			{
+				ques: "question",
+				ans: "answer",
+				ansSel: ["selection", "selection", "selection","selection"],
+				ansInfo: ["feedback."],
+			},
+			{
+				ques: "question",
+				ans: "answer",
+				ansSel: ["selection", "selection", "selection","selection"],
+				ansInfo: ["feedback."],
+			},
+			{
+				ques: "question",
+				ans: "answer",
+				ansSel: ["selection", "selection", "selection","selection"],
+				ansInfo: ["feedback."],
+			},
+			{
+				ques: "question",
+				ans: "answer",
+				ansSel: ["selection", "selection", "selection","selection"],
+				ansInfo: ["feedback."],
+			},
+			{
+				ques: "question",
+				ans: "answer",
+				ansSel: ["selection", "selection", "selection","selection"],
+				ansInfo: ["feedback."],
+			},
+			{
+				ques: "question",
+				ans: "answer",
+				ansSel: ["selection", "selection", "selection","selection"],
+				ansInfo: ["feedback."],
+			},
+			{
+				ques: "question",
+				ans: "answer",
+				ansSel: ["selection", "selection", "selection","selection"],
+				ansInfo: ["feedback."],
+			},
+			{
+				ques: "question",
+				ans: "answer",
+				ansSel: ["selection", "selection", "selection","selection"],
+				ansInfo: ["feedback."],
+			},
+*/
+		],
+				
+	},
+	options = {
+		help: "Try <a href='http://calve.massey.ac.nz/pharm/toxSite/indexTox.html' target='_blank'>Toxicology Index</a>",
+		intro: "Find out if you know anything about toxicology.",
+		allRandom: false,
+		title: "Toxicology"
+	};
+	
+	$("#quizArea").jQuizMe(quiz, options);
+});</script> 
+</body>
+</html>

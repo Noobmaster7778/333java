@@ -1,0 +1,239 @@
+body  { 
+	font-size: 12px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	background-color: #ffdcdc; 
+	margin: 0; padding: 0;
+}
+td, th {
+	font-size: 12px;
+	color: #333333;
+	margin: 0px;
+}
+a {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+#text { 
+	margin-top: 0; 
+	padding-left: 10px;
+	padding-right: 5px; 
+	margin-left: 120px; 
+	margin-right:50px; }
+.references   { 
+	font-size: 10px; 
+	text-align: left; 
+	left: auto 
+}
+.titleLec {
+	font-size: 18px;
+ 	background-color: #FF9900; 
+ 	color: #003333;
+}
+
+.box1Lec {
+	background-image:  url(../pharmBits/images/pigzz-sm.jpg);
+	background-repeat: repeat-x;
+	background-position: left center;
+	border: 0px none #99FF99;
+}
+.caption {
+	font-style: italic;
+}
+.titleSG   { 
+	color: #003333; 
+	font-size: 18px; 
+	line-height: 20px; 
+	background-color: #ff6666; 
+	padding-left: 12px 
+}
+.box1SG {
+	background-image:   url(../pharmBits/images/med-bottle.jpg);
+	background-repeat: repeat-x;
+	background-position: left center;
+	border: 0px none #99FF99;
+}
+.sectTitle {
+	font-family: "Jokerman LET";
+	font-size: 80px;
+	line-height: 80px;
+	color: yellow;
+}
+.box1SGhtml {
+	background-image:   url(../pharmBits/images/redClouds.jpg);
+	background-repeat: repeat-x;
+	background-position: left center;
+	border: 0px none #99FF99;
+	margin: 0px;
+	padding: 0px;
+}
+.footerSG  {
+	color: #333333;
+	font-size: 14px; 
+	font-weight: bold; 
+	line-height: 22px; 
+	background-color: #ff6666 ; 
+}
+.box2drugsSG { 
+	color: black; 
+	background-repeat: repeat; 
+	background-position: left center; 
+	border: 0 #99ff99; 
+	font-size: 18px; 
+	text-indent: 0; 
+	background-color: #ff6699; 
+	margin: 0; 
+	padding: 4px; 
+}
+.sgH3 { 
+	color: black; 
+	font-size: 12pt; 
+	font-weight: bold; 
+	line-height: 18px  
+}
+p { 
+	color: #369; 
+}
+blockquote { 
+	font-size: 12px; 
+	line-height: 18px; 
+}
+.ParSubhead2  { 
+	color: #333333;
+	font-family: Verdana, Arial, Helvetica, sans-serif;  
+	font-size: 14px; 
+	font-weight: bold; 
+	line-height: 22px; 
+	background-color: #ff6666 ; 
+}
+.ParSubhead3  { 
+	color: #369; 
+	font-size: 12pt; 
+	font-weight: bold; 
+	line-height: 18px  
+}
+#gototop{
+	position: fixed;
+	left: 20px;
+	bottom: 20px;}
+ul { 
+	color: #369;
+	padding: 10;
+}
+#sumbox { background-color: #ff6666;
+	float: right; 
+	margin-top:50px;
+	margin-left: 10px; 
+	width:300px;
+	padding: 3px
+}
+#drugbox { 
+	background-color: fuchsia;
+	font-size: 14px;
+	width:300px;
+	margin-left: -3px;
+	margin-right: -3px;
+	margin-bottom: -3px;
+	margin-top: 3px;
+	padding: 3px;
+}
+#clinbox { 
+	background-color: yellow;
+	font-size: 14px;
+	width:300px;
+	margin-left: -3px;
+	margin-right: -3px;
+	margin-bottom: -3px;
+	margin-top: 3px;
+	padding: 3px;
+}
+.bannerSG {
+	background-image:   url(../pharmBits/images/redClouds.jpg);	
+	background-repeat: repeat-x;
+	height: 105px;
+	width: 100%;
+	clear: both }
+.indent120 { margin-left: 120px; }
+#colLeft {
+	float: left;}
+#colRight {
+	float: right;
+	margin-right: 100px}
+#logo  { 
+	background-color: white; 
+	background-image: url(images/mulogo.gif); 
+	background-repeat: no-repeat; 
+	height: 25px; 
+	clear: both; }
+#mainBody {
+	width: 100%;
+	clear: both}
+.butNav {
+	float: left;
+	width: 16%;
+	padding: 5px}
+#menuL {
+	position: fixed;
+	left: 20px;
+	top: 120px;}
+	
+/*vertical menu*/
+#nav, #nav ul { /* all lists */
+		position: fixed;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		float : left;
+		width : 9em;
+	}
+	
+#nav a.daddy {
+	background: #ffc1dd url(tri1.gif) no-repeat right center;
+	}
+	
+#nav li { /* all list items */
+		position : relative; 
+		float : left; 
+		line-height : 1.5em; 
+		margin-bottom : -1px; 
+		width: 9em; }
+	
+	#nav li ul { /* second-level lists*/ 
+		position : absolute;
+		left: -999em;
+		margin-left : 9.5em;
+		margin-top : -1em;
+	}
+	
+	#nav li ul ul { /* third-and-above-level lists */
+		left: -999em;
+	}
+	
+	#nav li a {
+		width: 9em;
+		w\idth : 9em;
+		display : block;
+		color : blue;
+		font-weight : normal;
+		text-decoration : none;
+		background-color : #ffc1dd;
+		border : 0;
+		padding : 0 0.5em;
+	}
+	
+	#nav li a:hover {
+		color : teal;
+		background-color : #ffb1df;
+	}
+	
+	#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {
+		left: -999em;
+	}
+	
+	#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul { /* lists nested under hovered list items */
+		left: auto;
+	}
+

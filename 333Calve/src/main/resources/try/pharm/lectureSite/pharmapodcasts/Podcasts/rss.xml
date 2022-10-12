@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Pharmapodcasts</title>
+    <link>http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Podcasts/Podcasts.html</link>
+    <description>These are large files (mostly 10 - 20MB) which contain the slides for the lectures as well as a recording of the sound.</description>
+    <generator>iWeb 3.0</generator>
+    <image>
+      <url>http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Podcasts/Podcasts_files/DSCN0015.jpg</url>
+      <title>Pharmapodcasts</title>
+      <link>http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Podcasts/Podcasts.html</link>
+    </image>
+    <ttl>60</ttl>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:subtitle>These are large files (mostly 10 - 20MB) which contain the slides for the lectures as well as a recording of the sound.</itunes:subtitle>
+    <itunes:summary>These are large files (mostly 10 - 20MB) which contain the slides for the lectures as well as a recording of the sound.</itunes:summary>
+    <itunes:image href="http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Podcasts/Podcasts_files/DSCN0015.jpg"/>
+    <language>en</language>
+    <item>
+      <title>13 Respiratory Drugs</title>
+      <link>http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Podcasts/Entries/2009/3/24_13_Respiratory_Drugs.html</link>
+      <guid isPermaLink="false">b5744bba-dd64-4c3d-ad71-2e44d7a3d839</guid>
+      <pubDate>Tue, 24 Mar 2009 14:46:54 +1300</pubDate>
+      <description>&lt;a href=&quot;http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Media/13resp.m4a&quot;&gt;&lt;img src=&quot;http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Podcasts/Media/13resp_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:160px; height:160px;&quot;/&gt;&lt;/a&gt;Common problems affecting the respiratory system and the groups of drugs used to treat them. A bit on oxygen for treating hypoxia, including pulmonary oedema. The main adjunctive drugs: antitussives, expectorants, mucolytics etc.</description>
+      <enclosure url="http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Media/13resp.m4a" length="12692383" type="audio/x-m4a"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:41:22</itunes:duration>
+      <itunes:subtitle>Common problems affecting the respiratory system and the groups of drugs used to treat them. A bit on oxygen for treating hypoxia, including pulmonary oedema. The main adjunctive drugs: antitussives, expectorants, mucolytics etc.</itunes:subtitle>
+      <itunes:summary>Common problems affecting the respiratory system and the groups of drugs used to treat them. A bit on oxygen for treating hypoxia, including pulmonary oedema. The main adjunctive drugs: antitussives, expectorants, mucolytics etc.</itunes:summary>
+    </item>
+    <item>
+      <title>12 Adrenergic Transmission</title>
+      <link>http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Podcasts/Entries/2009/3/13_12_Adrenergic_Transmission.html</link>
+      <guid isPermaLink="false">a242b34b-2c08-4186-a4cb-88f7b2d809d8</guid>
+      <pubDate>Fri, 13 Mar 2009 09:04:22 +1300</pubDate>
+      <description>&lt;a href=&quot;http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Media/12adren.m4a&quot;&gt;&lt;img src=&quot;http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Podcasts/Media/12adren_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:160px; height:160px;&quot;/&gt;&lt;/a&gt;An overview of adrenergic transmission in the sympathetic nervous system. Most of this stuff will be covered in more detail in the cardiovascular lectures. A bit on non-cholinergic, non-adrenergic transmission.</description>
+      <enclosure url="http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Media/12adren.m4a" length="13658174" type="audio/x-m4a"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:47:38</itunes:duration>
+      <itunes:subtitle>An overview of adrenergic transmission in the sympathetic nervous system. Most of this stuff will be covered in more detail in the cardiovascular lectures. A bit on non-cholinergic, non-adrenergic transmission.</itunes:subtitle>
+      <itunes:summary>An overview of adrenergic transmission in the sympathetic nervous system. Most of this stuff will be covered in more detail in the cardiovascular lectures. A bit on non-cholinergic, non-adrenergic transmission.</itunes:summary>
+    </item>
+    <item>
+      <title>11 Neuromuscular Junction</title>
+      <link>http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Podcasts/Entries/2009/3/12_11_Neuromuscular_Junction.html</link>
+      <guid isPermaLink="false">6338b070-bcf4-450f-a2cb-bf02eb82ebe4</guid>
+      <pubDate>Thu, 12 Mar 2009 08:59:30 +1300</pubDate>
+      <description>&lt;a href=&quot;http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Media/11nmj.m4a&quot;&gt;&lt;img src=&quot;http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Podcasts/Media/11nmj_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:160px; height:160px;&quot;/&gt;&lt;/a&gt;Drugs which cause paralysis by blocking the neuromuscular junction and why not to use them unless you know what you are doing. Suxamethonium and competitive blockers - atracurium, vecuronium and others. Uses and precautions.</description>
+      <enclosure url="http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Media/11nmj.m4a" length="15168702" type="audio/x-m4a"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:51:28</itunes:duration>
+      <itunes:subtitle>Drugs which cause paralysis by blocking the neuromuscular junction and why not to use them unless you know what you are doing. Suxamethonium and competitive blockers - atracurium, vecuronium and others. Uses and precautions.</itunes:subtitle>
+      <itunes:summary>Drugs which cause paralysis by blocking the neuromuscular junction and why not to use them unless you know what you are doing. Suxamethonium and competitive blockers - atracurium, vecuronium and others. Uses and precautions.</itunes:summary>
+    </item>
+    <item>
+      <title>10 Cholinergic Transmission</title>
+      <link>http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Podcasts/Entries/2009/3/10_10_Cholinergic_Transmission.html</link>
+      <guid isPermaLink="false">edf4874d-37e4-4636-871c-25a10aa17525</guid>
+      <pubDate>Tue, 10 Mar 2009 20:54:17 +1300</pubDate>
+      <description>&lt;a href=&quot;http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Media/10chol.m4a&quot;&gt;&lt;img src=&quot;http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Podcasts/Media/10chol_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:160px; height:160px;&quot;/&gt;&lt;/a&gt;Cholinergic transmission in the autonomic ganglia and at parasympathetic nerve endings. Muscarinic receptors and their subtypes. Atropine and other antimuscarinic drugs. A bit about cholinesterases and their inhibition.</description>
+      <enclosure url="http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Media/10chol.m4a" length="12792967" type="audio/x-m4a"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:42:00</itunes:duration>
+      <itunes:subtitle>Cholinergic transmission in the autonomic ganglia and at parasympathetic nerve endings. Muscarinic receptors and their subtypes. Atropine and other antimuscarinic drugs. A bit about cholinesterases and their inhibition.</itunes:subtitle>
+      <itunes:summary>Cholinergic transmission in the autonomic ganglia and at parasympathetic nerve endings. Muscarinic receptors and their subtypes. Atropine and other antimuscarinic drugs. A bit about cholinesterases and their inhibition.</itunes:summary>
+    </item>
+    <item>
+      <title>08 Residues</title>
+      <link>http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Podcasts/Entries/2009/3/10_08resid.html</link>
+      <guid isPermaLink="false">7c1b93c6-3742-4490-8590-5d2fac86b5ac</guid>
+      <pubDate>Tue, 10 Mar 2009 13:51:52 +1300</pubDate>
+      <description>&lt;a href=&quot;http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Media/itbounce.m4a&quot;&gt;&lt;img src=&quot;http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Podcasts/Media/100,0,600,6009b1c00e8_675afbf1_288402db_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:216px; height:216px;&quot;/&gt;&lt;/a&gt;Drug residues in food - how they occur and what you as a vet can do to prevent them. How to work out withholding times for drugs with some examples. Why most large-animal vets stick religiously to the instructions on the label.</description>
+      <enclosure url="http://calve.massey.ac.nz/pharm/lectureSite/pharmapodcasts/Media/itbounce.m4a" length="15804999" type="audio/x-m4a"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Paul Chambers</itunes:author>
+      <itunes:duration>00:49:48</itunes:duration>
+      <itunes:subtitle>Drug residues in food - how they occur and what you as a vet can do to prevent them. How to work out withholding times for drugs with some examples. Why most large-animal vets stick religiously to the instructions on the label.</itunes:subtitle>
+      <itunes:summary>Drug residues in food - how they occur and what you as a vet can do to prevent them. How to work out withholding times for drugs with some examples. Why most large-animal vets stick religiously to the instructions on the label.</itunes:summary>
+    </item>
+  </channel>
+</rss>

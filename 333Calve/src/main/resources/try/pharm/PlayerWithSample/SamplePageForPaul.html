@@ -1,0 +1,27 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>FLVPlayer</title>
+<script type="text/javascript" src="swfobject.js"></script>
+</head>
+<body>
+<!--url's used in the movie-->
+<!--text used in the movie-->
+<!-- saved from url=(0013)about:internet -->
+	<div id="flashcontent">
+		<strong>You need to upgrade your Flash Player. To update, visit the  <a href="http://www.adobe.com/getflash">Adobe</a> site and click the "Get Flash Player" option.</strong>
+	</div>
+
+	<script type="text/javascript">
+		// <![CDATA[
+		
+		var so = new SWFObject("FLVPlayer.swf", "sotester", "300", "200", "8", "#ffffff");
+		so.addVariable("FLVPath", "Sample1.flv");
+		so.useExpressInstall('/shared/swfobject/expressinstall.swf');
+		so.write("flashcontent");
+		
+		// ]]>
+	</script>
+	
+</body>
+</html>

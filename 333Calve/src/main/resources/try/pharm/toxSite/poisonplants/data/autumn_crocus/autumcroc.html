@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>autumn crocus</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<link href="../../plantStyles3.css" type="text/css" rel="stylesheet" />
+<link href="../../planticon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="../../scripts/magnific-popup.css">
+<script src="../../scripts/jquery-1.10.1.min.js"></script>
+<script src="../../scripts/jquery.magnific-popup.min.js"></script>
+</head>
+
+<body>
+<a id="top"></a>
+<div id="bannerTox">
+  <a href="../../../indexTox.html"><img src="../../images/pl-gr-cattle.gif" /></a>
+</div>
+<div id="photos">
+  <div align="center"> Click on photos to enlarge</div>
+  <br />
+  <br />
+  <div class="popup-gallery">
+	  <div class="photosLeft">
+		  	<a href="a-croc-pl-b.jpg" title="Autumn crocuses under bracken (September, Edinburgh)."><img src="a-croc-pl-s.jpg" /><br />
+		    plant</a><br /><br />
+		    <!--<a href="a-croc-lf-b.jpg" title="Leaves"><img src="a-croc-lf-s.jpg" /><br />
+		    leaves</a><br /><br />
+		    <a href="a-croc-fr-b.jpg" title="fruit"><img src="a-croc-fr-s.jpg" /><br />
+		    fruit</a><br /><br />
+		    spare photo
+		    <a href="spare-b.jpg" title="spare"><img src="spare-s.jpg" /><br />
+		    spare</a>-->
+	    </div>
+		<div class="photosRight">
+			<a href="a-croc-fl-b.jpg" title="Autumn crocus flower (September, Edinburgh)."><img src="a-croc-fl-s.jpg" /><br />
+				flower</a><br /><br />
+				<a href="a-croc-fl-cu-b.jpg" title="Autumn crocus flower (September, Edinburgh)."><img src="a-croc-fl-cu-s.jpg" /><br />
+				flower</a><br /><br />
+				<!--<a href="a-croc-df-b.jpg" title="distinctiveFeature"><img src="a-croc-df-s.jpg" /><br />
+				distinctiveFeature</a>--></div>
+		</div>
+	</div>
+			<div id="text">
+				<h1 class="commonname">Autumn Crocus</h1>
+				<p class="Latinname">Colchicum autumnale</p>
+				<h2>Other names</h2>
+				<p>meadow saffron</p>
+				<h2 id="desc">Description</h2>
+				<p>25 - 30 cm tall, autumn flowering corm, produces leaves in spring, with up to eight long tubed, wine glass shaped purple, pink or white flowers similar to a crocus. 3 - 5 strap shaped, semi erect, basal glossy leaves in spring.</p>
+				<h2 id="simPl">Similar plants</h2>
+				<p>A variety of other species of <em>Colchicum</em> are planted in gardens: they are very similar but have bigger flowers. Also poisonous. True crocuses look similar but produce flowers and leaves at the same time.</p>
+				<h2 id="dist">Distribution</h2>
+				<p>Garden plant, or as wild escape throughout NZ. Native to Europe. Prefers semi shaded areas.</p>
+				<h2 id="tox">Toxin</h2>
+				<p>Alkaloids colchicine and gloriosine which suppress cell division. All parts of the plant are toxic. Poisonings occur during vegetative growth and flowering.</p>
+				<h2 id="spec">Species affected</h2>
+				<p>Most reports in horses, cattle and sheep, but can effect all species, including people. Calves can be affected by drinking milk from poisoned cows.</p>
+				<h2 id="clinSiAc">Clinical signs acute</h2>
+				<p>Gastroenteritis, purging, straining. Gradual loss of muscular power.</p>
+				<h2 id="clinSiCh">Clinical signs chronic</h2>
+				<p></p>
+				<h2 id="pm">Post mortem signs</h2>
+				<p>Haemorrhagic gastroenteritis.</p>
+				<h2 id="diag">Diagnosis</h2>
+				<p>History</p>
+				<h2 id="diff">Differential diagnosis</h2>
+				<p>Arsenic poisoning, toxalbumins eg. castor oil plant.</p>
+				<h2 id="treat">Treatment</h2>
+				<p>Activated charcoal, stomach pumping, and symptomatic treatment, although may die from respiratory failure.</p>
+				<h2 id="prog">Prognosis</h2>
+				<p>Grave</p>
+				<h2 id="prev">Prevention</h2>
+				<hr />
+				<h2 id="refs">References</h2>
+				<p class="references">Connor, HE, The Poisonous plants in New Zealand, 2nd ed.,1977, Government Printer, Wellington.</p>
+			</div>
+  <div id="suckerfish"></div>
+  <div id="topMenuA"></div>
+   
+    <script type="text/javascript">
+    var date = new Date(document.lastModified);
+    document.write("Last Updated: "+date.getHours()+":"+(date.getMinutes() < 10 ? "0":"")+""+date.getMinutes() +" " +date.getDate()+ "/"+ (date.getMonth()+1)+ "/" + date.getFullYear());
+    </script>
+  <br />
+  <div id="logo"></div>
+  <div id="gototop"> <a href="#top"><b>top</b></a></div>
+  <script type="text/javascript">
+  $(document).ready(function() {
+  	$('.popup-gallery').magnificPopup({
+  		delegate: 'a',
+  		type: 'image',
+  		tLoading: 'Loading image #%curr%...',
+  		mainClass: 'mfp-img-mobile',
+  		gallery: {
+  			enabled: true,
+  			navigateByImgClick: true,
+  			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+  		},
+  		image: {
+  			tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
+  			titleSrc: function(item) {
+  				return item.el.attr('title') ;
+  			}
+  		}
+  	});
+  	$('#suckerfish').load("../../Scripts/suckerfincP.html");
+  	$('#topMenuA').load("../../Scripts/topMenuAinc.html");
+  });
+  </script>

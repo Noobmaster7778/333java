@@ -1,0 +1,80 @@
+body { 
+	color: #369; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 0.8em;
+	background-color: #cff;
+	margin: 0; 
+	padding: 0;
+}
+p {  }
+a:link { color: blue ; text-decoration: none; }
+a:visited { color: purple }
+a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+a:active { color: red }
+.box1Pharm {
+	background-image:  url(images/syringe03.jpg);
+	background-repeat: repeat-x;
+	background-position: left center;
+	border: 0px none #99FF99;
+}
+.titlePharm {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+ background-color: #6699FF; color: #003333;
+}
+.footerPharm {
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 22px;
+	color: #000066;
+	background-color: #66FFFF;
+}
+.bannerPh {
+	background-image:   url(images/syringe03.jpg);	
+	background-repeat: repeat-x;
+	height: 105px;
+	width: 100%;
+	clear: both }
+.indent120 { margin-left: 120px; }
+#text { 
+	margin-top: 0; 
+	padding: 5px; 
+	margin-left: 120px; 
+	margin-right:50px; }
+#colLeft {
+	float: left;
+	left: 0;
+	padding-right: 5px;
+	padding-top: 5px;
+	width: 100%;
+	}
+#colRight {
+	float: left;
+	left: 50%;
+	padding-left: 5px;
+	padding-top: 5px;
+	width: 100%;
+	}
+#logo  { 
+	background-color: white; 
+	background-image: url(images/mulogo.gif); 
+	background-repeat: no-repeat; 
+	height: 25px; 
+	clear: both; }
+#mainBody {
+	width: 100%;
+	clear: both}
+.butNav {
+	float: left;
+	width: 16%;
+	padding: 5px}
+#gototop{
+	position: fixed;
+	left: 20px;
+	bottom: 20px;
+	font-size: 12px;}

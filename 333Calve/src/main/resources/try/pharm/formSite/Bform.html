@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<title>formulary B</title>
+		<link href="../pharmBits/favicon.png" rel="shortcut icon">
+		<link href="formStyles.css" rel="stylesheet" type="text/css" media="all">
+		<meta name="keywords" content="bacitracin, benazepril, bendrofluazide, benzylpenicillin, betamethasone, bethanecol, bisacodyl, bismuth, bretylium, bromide, buprenorphine, buspirone">
+	<script type="text/javascript" src="../Scripts/xpath.js"></script>
+	<script type="text/javascript" src="../Scripts/SpryData.js"></script>
+	<script type="text/javascript">
+        var dsDrugsB = new Spry.Data.XMLDataSet("Bdrugs.xml", "drugsB/drug");
+    </script>
+</head>
+
+<body>
+		<a id="top" name="top"></a>
+	<div id="banner"><img src="images/clouds2.jpg" alt="formBanner" /><div id="bannerText">Information on doses for drugs licensed for use in animals should be obtained from the IVS or the manufacturer&rsquo;s data sheet. The information here is intended as a guide only. Remember, unlicensed drugs are given on your responsibility. Remember withholding times in food animals too. The list of drugs available in NZ (and their price!) is subject to change. Errors and omissions, <a href="mailto:J.P.Chambers@massey.ac.nz">email me.</a></div>
+	</div>
+	
+	<div id="ajax">
+	   <div id="drugsdiv" spry:region="dsDrugsB">
+	   	<h2 spry:sort="BAN">drug</h2>
+	   	<p>Click for details.</p>
+	   	<p spry:repeat="dsDrugsB"  spry:setrow="dsDrugsB"><strong>{BAN}</strong></p>
+	   </div>
+	
+    <div id="sidebar" spry:detailregion="dsDrugsB"> 
+    <p>
+    	<span class="drugname">{BAN}</span><br />
+    	<em>USAN</em> {USAN}<br />
+    	<em>INN</em> {INN}<br />
+		<span class="header">class</span><br />{class}<br />
+		<span class="header">indications</span><br />{indication}<br />
+		<span class="header">contra-indications</span><br />{contraInd}<br />
+		<span class="header">side effects</span><br />{sideEffects}<br />
+		<span class="header">care</span><br />{care}<br />
+		<span class="header">pharmacokinetics</span><br />{pks}<br />
+		<span class="header">dose</span><br />{dose}<br />
+		<span class="header">plasma levels</span><br />{plasmaL}<br />
+		<span class="header">notes</span><br />{notes}</p>	
+    </div>
+  </div>
+  	
+	<div id="navn">
+	    <ul>
+	        <li><span class="navL"><a href="Aform.html">A</a><span class="navL"><a href="Bform.html">B</a><span class="navL"><a href="Cform.html">C</a></li>
+	        <li><span class="navL"><a href="Dform.html">D</a><span class="navL"><a href="Eform.html">E</a><span class="navL"><a href="Fform.html">F</a></li>
+	        <li><span class="navL"><a href="Gform.html">G</a><span class="navL"><a href="Hform.html">H</a><span class="navL"><a href="Iform.html">I</a></li>
+	        <li><span class="navL">J<span class="navL"><a href="Kform.html">K</a><span class="navL"><a href="Lform.html">L</a></li>
+	        <li><span class="navL"><a href="Mform.html">M</a><span class="navL"><a href="Nform.html">N</a><span class="navL"><a href="Oform.html">O</a></li>
+	        <li><span class="navL"><a href="Pform.html">P</a><span class="navL"><a href="Qform.html">Q</a><span class="navL"><a href="Rform.html">R</a></li>
+	        <li><span class="navL"><a href="Sform.html">S</a><span class="navL"><a href="Tform.html">T</a><span class="navL"><a href="Uform.html">U</a></li>
+	        <li><span class="navL"><a href="Vform.html">V</a><span class="navL"><a href="Wform.html">W</a><span class="navL"><a href="Xform.html">X</a></li>
+	        <li><span class="navL"><a href="Yform.html">Y</a><span class="navL"><a href="Zform.html">Z</a></li>
+	    </ul>
+	
+	    <div id="buttons">
+	        <ul>
+	            <li> <a href="../indexpharm.html"><img src="../PharmBut.gif" border="0" /></a></li>
+	          <li> <a href="../toxSite/indexTox.html"><img src="../ToxBut.gif" height="21" border="0" /></a></li>
+	          <li> <a href="indexSG.html"><img src="../SGbut.gif" height="21" border="0" /></a></li>
+	          <li> <a href="../lectureSite/indexLec.html"><img src="../LecBut.gif" height="21" border="0" /></a></li>
+	          <li> <a href="../formSite/Aform.html" target="_blank"><img src="../FormBut.gif" height="21" border="0" /></a></li>
+	          <li> <a href="../casesSite/indexCases.html"><img src="../CaseBut.gif" height="21" border="0" /></a></li>
+	        </ul>
+	  </div>
+	</div>
+
+	<div id="footer">
+		<p>If you can't read this page, click <a href="AformOld.html">here</a>.</p>
+		<div id="logo">copyright Massey University</div>
+	</div>
+
+	<div id="text">
+						<h1>bacitracin</h1>
+						<p>polypeptide antibiotic</p>
+						<h3>spectrum</h3>
+						<p>Gram + and some spirochaetes</p>
+						<h3>pharmacokinetics</h3>
+						<p>not absorbed from gut</p>
+						<h3>side effects</h3>
+						<p>nephrotoxicity</p>
+						<h3>use</h3>
+						<p>feed additive, topical (eye, skin ointment)</p>
+						<h3>notes</h3>
+						<p>1 unit = 26µg</p>
+						<p>banned in Europe</p>
+						<br />
+						<h1>benazepril</h1>
+						<p>angiotensin converting enzyme inhibitor</p>
+						<h3>indications</h3>
+						<p>congestive heart failure</p>
+						<h3>side effects</h3>
+						<p>rarely tiredness, hypotension</p>
+						<h3>dose</h3>
+						<p>dogs 0.25 - 1 mg/kg po once daily</p>
+						<br />
+						<h1>bendrofluazide</h1>
+						<p>thiazide diuretic</p>
+						<h3>dose</h3>
+						<p>dog and cat 125 - 250 µg/kg once daily (am)</p>
+						<br />
+						<h1>betamethasone</h1>
+						<p>glucocorticoid</p>
+						<h3>indications</h3>
+						<p>inflammation, allergy, ruminant ketosis, inducrtion of parturition in cattle, shock?</p>
+						<h3>side effects</h3>
+						<p>the full range of steroid side effects</p>
+						<h3>dose</h3>
+						<p>horses, sheep, goats, pigs 40 - 80µg/kg im, iv</p>
+						<p>cattle inflammation, ketosis 40 - 80µg/kg im, iv, induction of parturition 20 - 30mg im and repeat after 3 days if required</p>
+						<p>dogs &amp; cats 25µg/kg po daily then reduce, 40 - 80µg/kg im, iv</p>
+						<br />
+						<h1>bethanecol</h1>
+						<p>muscarinic agonist</p>
+						<h3>indications</h3>
+						<p>urinary retention caused by bladder paralysis after spinal injury</p>
+						<h3>dose</h3>
+						<p>dogs 5 - 25mg 3 times daily</p>
+						<p>cats 1.25 - 5mg 3 times daily</p>
+						<h3>notes</h3>
+						<p>variable efficacy</p>
+						<br />
+						<h1>bicarbonate</h1>
+						<p>see <span class="Charhyperlink">sodium bicarbonate</span></p>
+						<br />
+						<h1>bisacodyl</h1>
+						<p>irritant laxative</p>
+						<h3>indication</h3>
+						<p>constipation</p>
+						<h3>dose</h3>
+						<p>dogs 5 - 20mg once daily po</p>
+						<p>cats 5mg once daily po</p>
+						<br />
+						<h1>bismuth subcitrate</h1>
+						<p>gut protectant</p>
+						<h3>indications</h3>
+						<p>gastric ulceration, H. pylori infection?</p>
+						<h3>dose</h3>
+						<p>dogs 3 - 4mg/kg four times daily po</p>
+						<br />
+						<h1>bretylium</h1>
+						<p>class 3 antiarrhythmic</p>
+						<h3>indications</h3>
+						<p>refractory ventricular arrhythmias</p>
+						<h3>side effects</h3>
+						<p>rarely hypotension, arrhythmias</p>
+						<h3>dose</h3>
+						<p>Dog 5 - 20 mg/kg iv</p>
+						<br />
+						<h1>bromide</h1>
+						<p>(potassium bromide)</p>
+						<p>anticonvulsant</p>
+						<h3>side effects</h3>
+						<p>sedation, polyphagia, incoordination, hind leg weakness / stiffness, personality change</p>
+						<h3>Precautions</p>
+						<p>Avoid in cats</p>
+						<h3>dose</h3>
+						<p>dog - maintenance - 20 - 40 (- 100) mg/kg daily in divided doses</p>
+						<p>loading dose (rarely necessary) 400 - 600 mg/kg divided in four over 24 h</p>
+						<h3>plasma levels</h3>
+						<p>therapeutic - 0.5 - 1.5 mg/mL (6.25 - 19mM) (low) achieved after 2- 3 weeks, steady state 9 weeks</p>
+						<p>with phenobarbitone - 0.8 - 2.4 mg/mL (10 - 30mM)</p>
+						<p>toxic - very variable - mild 1.5 - 3 mg/mL (19 - 38mM), severe - over 3mg/mL (38mM) (people - can be toxic at 1mg/mL (12mM), fatal at 3.2 mg/mL (40mM))</p>
+						<h3>note</h3>
+						<p>best used as an adjunct to phenobarbitone</p>
+						<p>If tablets are unavailable, can be used as a 20% aqueous solution.</p>
+						<br />
+						<h1>buprenorphine</h1>
+						<p>µ opioid partial agonist - controlled drug C4</p>
+						<h3>indications</h3>
+						<p>pain, anaesthetic premed</p>
+						<h3>side effects</h3>
+						<p>vomiting, rarely respiratory depression</p>
+						<h3>dose</h3>
+						<p>dogs and cats 6 - 10 µg/kg</p>
+						<p>horses 6 µg/kg</p>
+						<h3>note</h3>
+						<p>not always effective, increasing dose does not increase effect</p>
+						<br />
+						<h1>buspirone</h1>
+						<p>anxiolytic</p>
+						<h3>indications</h3>
+						<p>inappropriate marking</p>
+						<h3>dose</h3>
+						<p>cats 5 mg/cat twice daily for 8 weeks. The dosage is then reduced for a further 2 weeks.</p>
+			</div>
+
+	</body>
+
+</html>

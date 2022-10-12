@@ -1,0 +1,13 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<svg width="302px" height="300px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <title>molecule</title>
+    <g fill="none">
+        <circle cx="150" cy="31" r="30" stroke="rgb(0,0,0)" stroke-width="1" fill="rgb(255,9,12)"></circle>
+        <line x1="150" x2="150" y1="60" y2="120" stroke="rgb(0,0,0)" stroke-width="4"></line>
+        <circle cx="271" cy="150" r="30" stroke="rgb(0,0,0)" stroke-width="1" fill="rgb(255,255,255)"></circle>
+        <line x1="181" x2="241" y1="150" y2="150" stroke="rgb(0,0,0)" stroke-width="4"></line>
+        <circle cx="150" cy="150" r="30" stroke="rgb(0,0,0)" stroke-width="1" fill="rgb(255,255,255)"></circle>
+        <line x1="150" x2="150" y1="180" y2="240" stroke="rgb(0,0,0)" stroke-width="4"></line>
+        <circle cx="150" cy="269" r="30" stroke="rgb(0,0,0)" stroke-width="1" fill="rgb(255,255,0)"></circle>
+    </g>
+</svg>

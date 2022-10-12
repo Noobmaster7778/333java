@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html> 
+<head> 
+	<title>Autonomic MCQ</title> 
+	<link rel="stylesheet" type="text/css" href="../../pharmBits/jQuizMe.css"/>
+	<link href="../sgStyles2.css" rel="stylesheet" type="text/css" />
+	<link href="../favicon.png" rel="shortcut icon" />
+	<script type="text/javascript" src="../../Scripts/jquery.js"></script>
+	<script type="text/javascript"><!--//--><![CDATA[//><!--
+
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//--><!]]></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$('#suckerfish').load("../../Scripts/suckerfinc.html");
+		});
+	</script>
+</head> 
+<body>
+<a id="top"></a>
+<div id="bannerSG">
+  <div class="indent120"><img src="../images/red-cattle.jpg" border="0" /></div>
+  </div>
+<div id="text">
+  <h1>Multiple choice questions</h1>
+  <p>Choose the single best answer. The pass mark is 50% and each question should take no more than one minute.</p> 
+	<div id="quizArea"></div>
+	<p><input onclick="history.go(-1)" type="Button" value="Previous Page"></p>
+<div id="suckerfish"></div>
+<h2> <a href="autonIndex.html">4 Autonomic index</a></h2>
+  <div class="butNav"><a href="../../indexpharm.html"><img src="../../PharmBut.gif" height="21" border="0" /></a></div>
+  <div class="butNav"><a href="../../toxSite/indexTox.html"><img src="../../ToxBut.gif" height="21" border="0" /></a></div>
+  <div class="butNav"><a href="../indexSG.html"><img src="../../SGbut.gif" height="21" border="0" /></a></div>
+  <div class="butNav"><a href="../../lectureSite/indexLec.html"><img src="../../LecBut.gif" height="21" border="0" /></a></div>
+  <div class="butNav"><a href="../../formSite/Aform.html" target="_blank"><img src="../../FormBut.gif" height="21" border="0" /></a></div>
+  <div class="butNav"><a href="../../casesSite/indexCases.html"><img src="../../CaseBut.gif" height="21" border="0" /></a></div>
+  <div id="logo">
+    <div align="right">copyright Massey University</div>
+  </div>
+  <div id="gototop"><a href="#top"><b>top</b></a></div>
+  </div>   
+ 
+
+<script type="text/javascript" src="../../scripts/jQuizMe-compressed.js"></script> 
+<script type="text/javascript"> 
+$( function($){
+	var quiz = {		
+		multiList: [
+			{
+				ques: "Noradrenaline acting on &#945;<sub>1</sub> receptors is likely to produce",
+				ans: "vasoconstriction",
+				ansSel: ["tachycardia", "bronchoconstriction", "lachrymation", "relaxation of the uterus"],
+				ansInfo: ["Noradrenaline produces tachycardia by acting on &#946;<sub>1</sub> receptors. The bronchial smooth muscle has no sympathetic innervation, although circulating adrenaline can produce relaxation by acting at &#946;<sub>2</sub> receptors. Noradrenaline is very effective at causing arteriolar vasoconstriction, has no effect on the lacrymal gland and causes uterine contraction by an &#945; effect."],
+			},
+			{
+				ques: "Mydriasis may be produced in dogs by",
+				ans: "phenylephrine",
+				ansSel: ["prazosin", "morphine", "pilocarpine","isoprenaline"],
+				ansInfo: ["Mydriasis (widening of the pupil) can be produced by muscarinic acetylcholine antagonists and &#945;<sub>1</sub> agonists (phenylephrine). Muscarinic agonists (pilocarpine) and opioids (morphine) cause miosis. Isoprenaline and prazosin have no effect."],
+			},
+			{
+				ques: "Atropine",
+				ans: "is useful in the treatment of organophosphate poisoning",
+				ansSel: ["is a competitive antagonist at nicotinic receptors", "increases salivary secretion", "lasts for 5 minutes when applied to the eye", "can prevent motion sickness in dogs"],
+				ansInfo: ["Atropine is the most widely used muscarinic (competitive) antagonist. It blocks most parasympathetic effects including salivary secretion and gut spasm, but it is not very effective at stopping motion sickness. It blocks the muscarinic effects of excess acetylcholine when its breakdown is prevented by organophosphates. Its effects in the eye last for hours (its effects on the heart are of short duration)."],
+			},
+			{
+				ques: "The effects of &#945;<sub>2</sub> agonists usually include",
+				ans: "vasodilatation",
+				ansSel: ["excitement", "hypoglycaemia", "diarrhoea", "tachycardia"],
+				ansInfo: ["&#945;<sub>2</sub> agonists produce sedation by an action on the locus coeruleus in the brainstem. They usually produce a vasoconstriction (direct local effect on blood vessels) followed by vasodilatation mediated at several central sites. The same happens in the gut and they can produce ileus. They transiently block insulin secretion causing mild hyperglycaemia. Vasoconstriction leads to hypertension which results in reflex bradycardia. This can be very obvious with &#945;<sub>2</sub> agonists."],
+			},
+			{
+				ques: "Suxamethonium",
+				ans: "is an agonist at muscle nicotinic receptors",
+				ansSel: ["is a competitive antagonist at the NMJ", "blocks transmission in ganglia", "is hydrolysed by acetylcholinesterase", "is composed of 7 subunits"],
+				ansInfo: ["Suxamethonium is clinically used to block transmission at the NMJ but it does this by binding to the nicotinic receptors and acting as an agonist. This causes the muscle cell to fire, but the suxamethonium does not dissociate from the receptor immediately, in the way that acetylcholine does, so further activation of the receptor cannot take place. It is broken down by plasma cholinesterase after it has dissociated from the receptor and diffused out of the synapse. It only blocks ganglia at very high doses (incompatible with life)."],
+			},
+			{
+				ques: "The skeletal muscle nicotinic acetyl choline receptor",
+				ans: "changes conformation when bound by 2 molecules of acetylcholine",
+				ansSel: ["is activated by a change in membrane potential", "is selectively permeable to sodium ions", "ion channel opens when atracurium is bound", "is identical to the ganglionic ACh receptor"],
+				ansInfo: ["The NMJ nicotinc receptors are ligand gated ion channels. Most of the ions which go through are sodium but some potassium and calcium ions also pass. The receptor is composed of two &#945; subunits which must each bind a molecule of ACh, plus one each of &#946;, &#948; and &#947; subunits (at any rate in the electric ray Torpedo, mammals are assumed to be similar!). Atracurium is a competitive antagonist."],
+			},
+			{
+				ques: "Vomiting in the dog can be controlled using",
+				ans: "metaclopramide",
+				ansSel: ["apomorphine", "xylazine", "diazepam", "kaolin and morphine"],
+				ansInfo: ["Apomorphine is a dopamine agonist which reliably causes vomiting in most species. Xylazine causes vomiting in about 30% of dogs. Metaclopramide is a dopamine antagonist whichis usually effective in stopping vomiting. Diazepam has no effect; kaolin and morphine is used to treat diarrhoea."],
+			},
+			{
+				ques: "The best treatment for mild diarrhoea in calves is",
+				ans: "oral fluids",
+				ansSel: ["a mixture of sulphonamides and aminoglycoside antibiotics", "codeine per rectum", "a 3rd generation cephalosporin antibiotic", "metaclopramide"],
+				ansInfo: ["Oral fluids are the best treatment for mild diarrhoea in any species. They are only contraindicated if the animal is also vomiting."],
+			},
+			{
+				ques: "Chronic obstructive pulmonary disease in the horse may be prevented using",
+				ans: "sodium cromoglycate",
+				ansSel: ["acetylcholine analogues", "histamine", "adrenaline", "penicillin"],
+				ansInfo: ["The aetiology of COPD is complex, but many cases are improved by bronchodilators. Adrenaline is too short acting to be any use, as well as having major side effects on the heart. Sodium cromoglycate is used for prevention. Acetylcholine and histamine will cause bronchoconstriction. Bacteria are not involved so penicillin does not work."],
+			},
+			{
+				ques: "You have been treating an 8yr old mongrel with NSAIDs for severe hip arthritis for 3 wks. The dog initially improved but is now anorexic, depressed and unwilling to move. Endoscopy reveals gastric ulceration. The best course of action is",
+				ans: "continue NSAIDs but add misoprostol",
+				ansSel: ["continue NSAIDs as it is more important to treat pain than the ulcers", "stop the NSAIDs", "prescribe morphine tablets instead of the NSAIDs", "continue NSAIDs but feed the dog a bland diet"],
+				ansInfo: ["The ulcers are probably caused by the NSAIDs, so either another analgesic must be given or an antiulcer drug must be added to the NSAID treatment. Morphine may be effective, but it is not a good idea to prescribe drugs of abuse unless there is absolutely no alternative."],
+			},
+		],
+				
+	},
+	options = {
+		help: "Try <a href='http://calve.massey.ac.nz/pharm/studyGuideSite/autonFiles/autonIndex.html' target='_blank'>Autonomic Pharmacology Index</a>",
+		intro: "Find out if you know anything about autonomic pharmacology.",
+		allRandom: false,
+		title: "Autonomic Pharmacology"
+	};
+	
+	$("#quizArea").jQuizMe(quiz, options);
+});</script> 
+</body>
+</html>

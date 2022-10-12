@@ -1,0 +1,54 @@
+body {
+	color: #033;
+	font-size: 12px;
+	font: 0.8em/1.2 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+	margin: 20;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+h1	{
+	color: black;
+	padding-left: 20px;
+}
+/*
+#logo  { 
+	background: white url(images/vetSchlogo.png) no-repeat left; 
+	height: 200px;
+	margin: 10px; 
+	clear: both; 
+}
+*/
+#text	{
+	padding-left: 20px;
+}
+#search	{
+	padding-left: 20px;
+}
+.anaes	{
+	background-color: #FFFF2F;
+}
+.anat	{
+	background-color: #C0C0C0;
+}
+.pharm	{
+	background-color: #87CEFA;
+}
+.tox	{
+	background-color: #98FB98;
+}
+.histo	{
+	background-color: #EE82EE;
+}
+.etc	{
+	background-color: #FF00FF;	
+}
+.vetTube	{
+	background-color: #00FF00;
+}

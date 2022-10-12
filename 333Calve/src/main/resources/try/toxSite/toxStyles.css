@@ -1,0 +1,258 @@
+body {
+	background-color: #e1fec3;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: black;
+	padding: 0;
+	margin: 0;
+}
+p {
+    margin: 0;
+    }
+h1 { /*same as headerTox*/
+	color: #ffff33;
+	font-size: 24px;
+	font-weight: bold;
+	background-color: rgba(0,75,0,0.5);
+	*background-color:#690;
+	text-indent: 5px;
+	text-shadow: rgb(0,0,0) 2px 2px 2px;
+	line-height: 1.5;
+}
+h2 { /*same as titleTox and header*/
+	color: navy;
+	font-size: 18px;
+	padding-left: 12px;
+	font-weight:normal;
+	background-color: #7fff7f;
+}
+h2:target {
+	color: yellow;
+	background: red;
+}
+h3 {/* =sgH3 */
+	color: navy;
+	font-size: 14px;
+	font-weight:normal;
+	padding-left: 10px;
+	line-height: 18px;
+	background-color: #98fb98;
+}
+h3:target {
+	color: yellow;
+	background: red;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #FF0000;
+	text-decoration: none;
+}
+table {
+	border: none;
+	}
+th {/* same as tableTitle */
+	background-color: #FFFF00;
+	font-weight:bold;
+	padding: 5px;
+}
+td {
+	background-color: rgba(173,255,47,0.3);
+	padding: 5px;
+	margin: 0;
+	}
+/*id styles*/
+#bannerTox {
+	top: 0;
+	left: 0;
+	background-image: url(images/green-mush-v-sm.jpg);
+	background-repeat: repeat-x;
+	height: 80px;
+	width: 100%;
+	padding-left: 120px;
+}
+#emerg {
+    width: 500px;
+    background-image: url(images/excl20x50.gif);
+    background-repeat: repeat-x;
+    background-position: center;
+/* 	color: #ffff33; */
+	font-size: 24px;
+	font-weight: bold;
+/* 	text-shadow: rgb(0,0,0) 2px 2px 2px; */
+	text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+	line-height: 1.5;
+	text-align: center;
+	}
+#emerg a {
+	color: white;
+}
+#text {
+	margin: 0 50px 0 120px;
+	padding: 10px;
+}
+#textIndex {
+	margin: 0 50px 0 120px;
+	padding: 10px;
+/* 	background-image: url(images/tutu-fl7-trans.jpg); */
+    background-repeat: repeat-y;
+    /*background-position-x: 520px;*/
+    background-position: right;
+}
+#index {
+    width: 500px;
+    }
+#clinTox, #inorg, #pest, #misc, #plants {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    }
+#footer {
+	margin-top: 0;
+	padding-left: 10px;
+	padding-right: 5px;
+	margin-left: 120px;
+	clear:both;
+	}
+#gototop {
+	position: fixed;
+	left: 40px;
+	top: 30px;
+	text-shadow: 1px 1px 1px #fff;
+}
+#logo {
+	background: white url(images/mulogo.gif)center left no-repeat;
+	height: 25px;
+	text-align: right;
+	padding: 3px;
+/* 	margin-left: 120px; */
+	clear: both;
+}
+#topMenuA {
+	position: absolute;
+	top: 80px;
+	left: 120px;
+	background-color: #00e400;
+	padding: 0 0 0 5px;
+	font-size: 14px;
+}
+#topMenuA ul {
+	margin: 0px;
+}
+#topMenuA ul li {
+	list-style: none;
+	margin: 0px;
+	display: inline;
+	padding: 0 0 0 23px;
+	text-align: center;
+}
+#topMenuA ul li a:hover {
+	background-color: #c8fe92;
+	color: red;
+}
+#topMenuA ul li a#current {
+	background: white;
+}
+/*class styles*/
+/*
+.indent120 {
+	margin-left: 120px;
+}
+*/
+.small {
+	font-size:9px;
+	margin-left: 5px;
+}
+.caption {
+	font-style: italic;
+}
+.butNav {
+	float: left;
+	width: 15%;
+	padding: 5px
+}
+.references {
+	font-size: 10px;
+	text-indent: -25px;
+	padding-left: 25px;
+}
+
+.tableTitle {/* use th instead */
+	background-color: #FFFF00;
+	font-weight:bold;
+}
+.sup {
+	position: relative;
+	bottom: 0.5em;
+	font-size: 0.8em;
+}
+.sub {
+	position: relative;
+	top: 0.3em;
+	font-size: 0.8em;
+}
+.warn {
+	color:red;
+	font-weight: bold;
+	text-shadow: text-shadow: rgb(0,0,0) 2px 2px 2px;
+}
+/*vertical menu - Son of Suckerfish - htmldog.com*/
+#suckerfish {
+	position: fixed;
+	top: 80px;
+	left: 0;
+}
+#linkstp {
+    position: fixed;
+    top: 260px;
+	left: 0;
+	}
+#nav, #nav ul, .nav, .nav ul { /* all lists */
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	float : left;
+	width : 9em;
+}
+#nav a.daddy, .nav a.daddy {
+	background: #bcfda0 url(tri1.gif) center right no-repeat;
+}
+#nav li, .nav li { /* all list items */
+	position : relative;
+	float : left;
+	line-height : 1.5em;
+	margin-bottom : -1px;
+	width: 9em;
+}
+#nav li ul, .nav li ul { /* second-level lists*/
+	position : absolute;
+	left: -999em;
+	margin-left : 9.5em;
+	margin-top : -1em;
+}
+#nav li ul ul, .nav li ul ul { /* third-and-above-level lists */
+	left: -999em;
+}
+#nav li a, .nav li a {
+	width: 9em;
+	w\idth : 9em;
+	display : block;
+	color : blue;
+	font-weight : normal;
+	text-decoration : none;
+	background-color : #bcfda0;
+	border : 0;
+	padding : 0 0.5em;
+}
+#nav li a:hover, .nav li a:hover {
+	color : teal;
+	background-color : #9c6;
+}
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul, .nav li:hover ul ul, .nav li:hover ul ul ul, .nav li.sfhover ul ul, .nav li.sfhover ul ul ul {
+	left: -999em;
+}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;
+}
+

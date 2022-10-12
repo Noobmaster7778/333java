@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>annual nettle</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<link href="../../plantStyles3.css" type="text/css" rel="stylesheet" />
+<link href="../../planticon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="../../scripts/magnific-popup.css">
+<script src="../../scripts/jquery-1.10.1.min.js"></script>
+<script src="../../scripts/jquery.magnific-popup.min.js"></script>
+</head>
+
+<body>
+<a id="top"></a>
+<div id="bannerTox">
+  <a href="../../../indexTox.html"><img src="../../images/pl-gr-cattle.gif" /></a>
+</div>
+
+<div id="photos">
+  <div align="center"> Click on photos to enlarge</div>
+  <br />
+  <br />
+  <div class="popup-gallery">
+  <div id="photosLeft"> <a href="a-net-pl-b.jpg" title="Small nettle plant. (October, Manawatu)."><img src="a-net-pl-s.jpg" /><br />
+    nettle plant</a><br /><br />
+    <a href="a-net-lf-b.jpg" title="Leaves. (October, Manawatu)."><img src="a-net-lf-s.jpg" /><br />
+    leaves</a><br /><br />
+    <a href="a-net-fr-b.jpg" title="Fruit. (November, Manawatu)."><img src="a-net-fr-s.jpg" /><br />
+    seeds</a></div>
+  <div id="photosRight"> <a href="a-net-fl-b.jpg" title="Flowers. (November, Manawatu)."><img src="a-net-fl-s.jpg" /><br />
+    flowers</a><br /><br />
+    <a href="a-net-fl-cu-b.jpg" title="Male flowers at tip of panicle, female flowers below. (November, Manawatu)."><img src="a-net-fl-cu-s.jpg" /><br />
+    flowers</a><br /><br />
+    <a href="a-net-df-b.jpg" title="Stinging hairs on stem. (November, Manawatu)."><img src="a-net-df-s.jpg" /><br />
+    stinging hairs</a></div>
+</div>
+</div>
+<div id="text">
+  <h1>Annual nettle</h1>
+  <h4>Urtica urens</h4>
+  <h2>Other names</h2>
+  <p>nettle</p>
+  <h2 id="desc">Description</h2>
+  <p>0.3 - 1.2m tall plant (depending on situation), covered with stinging hairs. Leaves heart shaped, toothed and opposite. Flowers green, in catkins.</p>
+  <h2 id="simPl">Similar plants</h2>
+  <p> There are three naturalised and four native species of <a href="../../nettles.html">nettle</a> in NZ. <a href="../per_nettle/p_nett.html">Perennial nettle</a> and <a href="../tree_nettle/tr_net.html">tree
+    nettle</a> are commonest.</p>
+  <h2 id="dist">Distribution</h2>
+  <p>Common in cultivated ground all over.</p>
+  <h2 id="tox">Toxin</h2>
+  <p>Histamine, 5 hydroxytryptamine and acetylcholine in the sting. <i>U. urens</i> has a less powerful sting than other common nettles.</p>
+  <h2 id="spec">Species affected</h2>
+  <p>All species may be affected.</p>
+  <h2 id="clinSiAc">Clinical signs acute</h2>
+  <p>Mild pain and irritation.</p>
+  <h2 id="clinSiCh">Clinical signs chronic</h2>
+  <h2 id="pm">Post mortem signs</h2>
+  <p>Very unlikely to be fatal.</p>
+  <h2 id="diag">Diagnosis</h2>
+  <p>History</p>
+  <h2 id="diff">Differential diagnosis</h2>
+  <p>Other causes of dermatitis.</p>
+  <h2 id="treat">Treatment</h2>
+  <p>None necessary - self limiting.</p>
+  <h2 id="prog">Prognosis</h2>
+  <p>Good.</p>
+  <h2 id="prev">Prevention</h2>
+  <hr />
+  <h2 id="refs">References</h2>
+  <p class="references">Connor, HE, The Poisonous plants in New Zealand, 2nd ed.,1977, Government Publications Ltd., Wellington</p>
+</div>
+<div id="suckerfish"></div>
+<div id="topMenuA"></div>
+ 
+  <script type="text/javascript">
+  var date = new Date(document.lastModified);
+  document.write("Last Updated: "+date.getHours()+":"+(date.getMinutes() < 10 ? "0":"")+""+date.getMinutes() +" " +date.getDate()+ "/"+ (date.getMonth()+1)+ "/" + date.getFullYear());
+  </script>
+<br />
+<div id="logo"></div>
+<div id="gototop"> <a href="#top"><b>top</b></a></div>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') ;
+			}
+		}
+	});
+	$('#suckerfish').load("../../Scripts/suckerfincP.html");
+	$('#topMenuA').load("../../Scripts/topMenuAinc.html");
+});
+</script>
+
+</body>
+</html>

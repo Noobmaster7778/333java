@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<drugsK>
+
+	<drug>
+		<BAN>ketamine</BAN>
+		<USAN>ketamine</USAN>
+		<INN>ketamine</INN>
+		<class>dissociative anaesthetic - NMDA antagonist</class>
+		<indication>as part of an anaesthetic / analgesic combination</indication>
+		<contraInd></contraInd>
+		<sideEffects>increased muscle tone / convulsions, respiratory and cardiovascular depression</sideEffects>
+		<care>avoid use on its own</care>
+		<pks>acts in minutes by any route</pks>
+		<dose>iv anaesthesia: ketamine 5-10mg/kg + diazepam 0.25-0.5mg/kg; cat: ketamine 1.25-2.5mg/kg + medetomidine 40&micro;g/kg; im anaesthesia / sedation: dog: ketamine 5-7.5mg/kg + medetomidine 40&micro;g/kg; cat: ketamine 2.5-7.5mg/kg + medetomidine 80&micro;g/kg; ketamine 10-20mg/kg, xylazine 1mg/kg; analgesia: 0.1 - 1mg/kg iv or 1-2.5mg/kg im, or 2-10&micro;g/kg/min iv infusion</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+	
+<drug>
+		<BAN></BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class></class>
+		<indication></indication>
+		<contraInd></contraInd>
+		<sideEffects></sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose></dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+	
+<drug>
+		<BAN></BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class></class>
+		<indication></indication>
+		<contraInd></contraInd>
+		<sideEffects></sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose></dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+	
+</drugsK>

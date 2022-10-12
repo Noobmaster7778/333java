@@ -1,0 +1,23 @@
+.body { color: #033; font-size: medium; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; background-color: #ceff63  ; margin-left: 120px; }
+p { color: #033; font-size: medium; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; background-color: #ceff63  ; }
+pre { color: #639c00; font-size: 0.8em; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+blockquote { color: #639c00; font-size: 0.8em; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+h1 { color: #639c00; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+h2 { color: #639c00; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+h3 { color: #639c00; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+h4 { color: #639c00; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+h5 { color: #639c00; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+h6 { color: #639c00; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+img { background-color: #eee; border: 0px }
+ol { color: navy; font-size: medium; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+ul { color: navy; font-size: medium; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; list-style-position: inside }
+a { color: blue; font-size: medium; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: none }
+a:visited { color: #525252; font-size: medium; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: none }
+a:hover { color: blue; font-size: medium; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: none }
+a:active { color: fuchsia; font-size: medium; text-decoration: none }
+tr { border: 0 }
+.cellcolor { font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; background-color: #6b8e23 }
+.rev_type { color: #ffffce; font-weight: bold; font-size: 1em; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: none }
+.g_nav_cellcolor { color: #ffffce; font-size: x-large; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; background-color: #9cce00  ; margin-left: -100px; }
+.header { color: green; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; background-color: yellow; }
+.a_type_color { color: white; font-size: 0.9em; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: none }

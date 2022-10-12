@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Lecture Podcasts</title>
+    <link>http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Podcast/Podcast.html</link>
+    <description>These are very large files (10 - 20MB) which contain the slides as well as the recorded lectures.</description>
+    <generator>iWeb 2.0.3</generator>
+    <image>
+      <url>http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Podcast/Podcast_files/DSCN0002.jpg</url>
+      <title>Lecture Podcasts</title>
+      <link>http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Podcast/Podcast.html</link>
+    </image>
+    <ttl>60</ttl>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:subtitle>These are very large files (10 - 20MB) which contain the slides as well as the recorded lectures.</itunes:subtitle>
+    <itunes:summary>These are very large files (10 - 20MB) which contain the slides as well as the recorded lectures.</itunes:summary>
+    <itunes:image href="http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Podcast/Podcast_files/DSCN0002.jpg"/>
+    <language>en</language>
+    <item>
+      <title>Anticonvulsants</title>
+      <link>http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Podcast/Entries/2008/5/6_Anticonvulsants.html</link>
+      <guid isPermaLink="false">fce6af4e-71e1-41e1-9629-a52d7c75842f</guid>
+      <pubDate>Tue, 6 May 2008 14:49:43 +1200</pubDate>
+      <description>&lt;a href=&quot;http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Media/31antiConv.m4a&quot;&gt;&lt;img src=&quot;http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Podcast/Media/100,0,600,600bcf17113_ac39530a_cc0650e2_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:157px; height:157px;&quot;/&gt;&lt;/a&gt;A discussion of the treatment of status epilepticus (mainly diazepam) and idiopathic epilepsy (mainly phenobarbitone), with a brief mention of other drugs.</description>
+      <enclosure url="http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Media/31antiConv.m4a" length="14649550" type="audio/x-m4a"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Paul Chambers</itunes:author>
+      <itunes:duration>00:44:08</itunes:duration>
+      <itunes:subtitle>A discussion of the treatment of status epilepticus (mainly diazepam) and idiopathic epilepsy (mainly phenobarbitone), with a brief mention of other drugs.</itunes:subtitle>
+      <itunes:summary>A discussion of the treatment of status epilepticus (mainly diazepam) and idiopathic epilepsy (mainly phenobarbitone), with a brief mention of other drugs.</itunes:summary>
+    </item>
+    <item>
+      <title>Inhalation Anaesthetic Drugs</title>
+      <link>http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Podcast/Entries/2008/5/2_Inhalation_Anaesthetic_Drugs.html</link>
+      <guid isPermaLink="false">3c7697c4-3a88-4ae4-82a1-9e0d4862dc9c</guid>
+      <pubDate>Fri, 2 May 2008 12:25:21 +1200</pubDate>
+      <description>&lt;a href=&quot;http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Media/30inhal.m4a&quot;&gt;&lt;img src=&quot;http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Podcast/Media/100,0,600,600f4622148_d5668cb0_fd1d0fde_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:157px; height:157px;&quot;/&gt;&lt;/a&gt;A brief overview of the pharmacology of inhalation anaesthetics, including pharmacokinetics and the properties of the drugs which influence their administration. Fish anaesthesia is also mentioned.</description>
+      <enclosure url="http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Media/30inhal.m4a" length="17628227" type="audio/x-m4a"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Paul Chambers</itunes:author>
+      <itunes:duration>00:52:45</itunes:duration>
+      <itunes:subtitle>A brief overview of the pharmacology of inhalation anaesthetics, including pharmacokinetics and the properties of the drugs which influence their administration. Fish anaesthesia is also mentioned.</itunes:subtitle>
+      <itunes:summary>A brief overview of the pharmacology of inhalation anaesthetics, including pharmacokinetics and the properties of the drugs which influence their administration. Fish anaesthesia is also mentioned.</itunes:summary>
+    </item>
+    <item>
+      <title>Injection anaesthetics</title>
+      <link>http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Podcast/Entries/2008/5/1_Injection_anaesthetics.html</link>
+      <guid isPermaLink="false">607de63f-1bd1-48d2-bb0a-93e631385c39</guid>
+      <pubDate>Thu, 1 May 2008 17:22:05 +1200</pubDate>
+      <description>&lt;a href=&quot;http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Media/29inj.m4a&quot;&gt;&lt;img src=&quot;http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Podcast/Media/100,0,600,600f8ed73c5_42080deb_ec6befdc_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:157px; height:157px;&quot;/&gt;&lt;/a&gt;The pharmacology of the common injectable anaesthetic drugs, with a brief mention of obsolete or nearly obsolete drugs. Common combinations and use for euthanasia are also covered.</description>
+      <enclosure url="http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Media/29inj.m4a" length="18350190" type="audio/x-m4a"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Paul Chambers</itunes:author>
+      <itunes:duration>00:50:35</itunes:duration>
+      <itunes:subtitle>The pharmacology of the common injectable anaesthetic drugs, with a brief mention of obsolete or nearly obsolete drugs. Common combinations and use for euthanasia are also covered.</itunes:subtitle>
+      <itunes:summary>The pharmacology of the common injectable anaesthetic drugs, with a brief mention of obsolete or nearly obsolete drugs. Common combinations and use for euthanasia are also covered.</itunes:summary>
+    </item>
+    <item>
+      <title>Other Analgesics</title>
+      <link>http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Podcast/Entries/2008/4/29_Other_Analgesics.html</link>
+      <guid isPermaLink="false">7f1ced9c-ae3a-456b-bc9b-b579347e398f</guid>
+      <pubDate>Tue, 29 Apr 2008 13:36:55 +1200</pubDate>
+      <description>&lt;a href=&quot;http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Media/27OthAnalg.m4a&quot;&gt;&lt;img src=&quot;http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Podcast/Media/100,0,600,6006748904_c6a6aedb_c9b31cdf_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:157px; height:157px;&quot;/&gt;&lt;/a&gt;This lecture covers drugs which are only useful for minor pain (NSAIDs) or which are more suited to use as part of a balanced analgesic mixture.</description>
+      <enclosure url="http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Media/27OthAnalg.m4a" length="16160557" type="audio/x-m4a"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Paul Chambers</itunes:author>
+      <itunes:duration>00:49:00</itunes:duration>
+      <itunes:subtitle>This lecture covers drugs which are only useful for minor pain (NSAIDs) or which are more suited to use as part of a balanced analgesic mixture.</itunes:subtitle>
+      <itunes:summary>This lecture covers drugs which are only useful for minor pain (NSAIDs) or which are more suited to use as part of a balanced analgesic mixture.</itunes:summary>
+    </item>
+    <item>
+      <title>General anaesthetics and sedatives</title>
+      <link>http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Podcast/Entries/2008/4/29_General_anaesthetics_and_sedatives.html</link>
+      <guid isPermaLink="false">53358977-c479-433a-9aa3-58ad3fafa1b0</guid>
+      <pubDate>Tue, 29 Apr 2008 09:34:32 +1200</pubDate>
+      <description>&lt;a href=&quot;http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Media/sed-GA.m4a&quot;&gt;&lt;img src=&quot;http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Podcast/Media/100,0,600,600980f44bf_ed1f6496_d653f7de_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:157px; height:157px;&quot;/&gt;&lt;/a&gt;A brief discussion of the pharmacology and mechanism of action of these drugs, with some guidelines on how to choose the best drug for any situation.</description>
+      <enclosure url="http://calve.massey.ac.nz/pharm/lectureSite/sounds/Site_3/Media/sed-GA.m4a" length="17807169" type="audio/x-m4a"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Paul Chambers</itunes:author>
+      <itunes:duration>00:52:11</itunes:duration>
+      <itunes:subtitle>A brief discussion of the pharmacology and mechanism of action of these drugs, with some guidelines on how to choose the best drug for any situation.</itunes:subtitle>
+      <itunes:summary>A brief discussion of the pharmacology and mechanism of action of these drugs, with some guidelines on how to choose the best drug for any situation.</itunes:summary>
+    </item>
+  </channel>
+</rss>

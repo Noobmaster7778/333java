@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<content collectionGUID="5F455181-632A-461D-8A0F-A931ADEC6705">
+  <lastEdited clientType="local-build-20090310" date="2009-03-10 14:31:06 +1300"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;08 Residues&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Tuesday, 10 March 2009&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Drug residues in food - how they occur and what you as a vet can do to prevent them. How to work out withholding times for drugs with some examples. Why most large-animal vets stick religiously to the instructions on the label.&lt;/b&gt;</richText>
+  </textBox>
+</content>

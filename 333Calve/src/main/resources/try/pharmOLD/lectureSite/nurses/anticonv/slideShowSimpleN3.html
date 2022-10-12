@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>anticonvulsant drugs</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript1.1">
+
+/*
+DHTML slideshow script- 
+© Dynamic Drive (www.dynamicdrive.com)
+For full source code, usage terms, and 100's more DHTML scripts, visit http://dynamicdrive.com
+*/
+
+var photos=new Array()
+var photoslink=new Array()
+var which=0
+
+//define images. You can have as many as you want. Images MUST be of the same dimensions (for NS's sake)
+photos[0]="slide1.jpg"
+photos[1]="slide2.jpg"
+photos[2]="slide3.jpg"
+photos[3]="slide4.jpg"
+photos[4]="slide5.jpg"
+photos[5]="slide6.jpg"
+photos[6]="slide7.jpg"
+photos[7]="slide8.jpg"
+photos[8]="slide9.jpg"
+photos[9]="slide10.jpg"
+photos[10]="slide11.jpg"
+photos[11]="slide12.jpg"
+photos[12]="slide13.jpg"
+photos[13]="slide14.jpg"
+photos[14]="slide15.jpg"
+photos[15]="slide16.jpg"
+photos[16]="slide17.jpg"
+photos[17]="slide18.jpg"
+photos[18]="slide19.jpg"
+photos[19]="slide20.jpg"
+photos[20]="slide21.jpg"
+photos[21]="slide22.jpg"
+photos[22]="slide23.jpg"
+photos[23]="slide24.jpg"
+photos[24]="slide25.jpg"
+photos[25]="slide26.jpg"
+photos[26]="slide27.jpg"
+photos[27]="slide28.jpg"
+
+
+//Specify whether images should be linked or not (1=linked)
+var linkornot=0
+
+//Set corresponding URLs for above images. Define ONLY if variable linkornot equals "1"
+photoslink[0]=""
+photoslink[1]=""
+photoslink[2]=""
+photoslink[3]=""
+photoslink[4]=""
+
+//do NOT edit pass this line
+
+var preloadedimages=new Array()
+for (i=0;i<photos.length;i++){
+preloadedimages[i]=new Image()
+preloadedimages[i].src=photos[i]
+}
+
+
+
+
+function keeptrack(){
+window.status="Image "+(which+1)+" of "+photos.length
+}
+
+
+function backward(){
+if (which>0){
+which--
+
+document.images.photoslider.src=photos[which]
+
+keeptrack()
+}
+}
+
+function forward(){
+if (which<photos.length-1){
+which++
+
+document.images.photoslider.src=photos[which]
+
+keeptrack()
+}
+}
+
+function transport(){
+window.location=photoslink[which]
+}
+
+</script>
+		<link href="../../../pharmBits/farmStyles1.css" rel="stylesheet" type="text/css">
+	</head>
+
+<body>
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" colspan="2" height="22"><center>
+<script>
+if (linkornot==1)
+document.write('<a href="javascript:transport()">')
+
+document.write('<img src="'+photos[0]+'" name="photoslider" border=0>')
+if (linkornot==1)
+document.write('</a>')
+</script>
+</center></td>
+  </tr>
+  <tr>
+    <td width="50%" height="21"><p align="left"><a href="#" onClick="backward();return false">Previous Slide</a></td>
+    <td width="50%" height="21"><p align="right"><a href="#" onClick="forward();return false">Next Slide</a></td>
+  </tr>
+</table>
+
+<p>link to <a href="../../../studyGuideSite/CNSfiles/CNSantiCon.html">anticonvulsants study guide</a> (vet students), <a href="../../../studyGuideSite/CNSfiles/CNSsedBDZ.html">diazepam</a>, <a href="../../../studyGuideSite/CNSfiles/CNSgAintro.html">anaesthesia</a>, <a href="../../../studyGuideSite/CNSfiles/CNSgAintro.html">intubation</a>, <a href="../../../studyGuideSite/cardioFiles/cardCPR.html">CPR</a><br>
+		</p>
+<p align="center"><font face="Arial" size="-2">Free DHTML scripts provided by<br>
+<a href="http://dynamicdrive.com">Dynamic Drive</a></font></p>
+</body>
+</html>

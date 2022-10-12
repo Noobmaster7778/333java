@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Agapanthus</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<link href="../../plantStyles3.css" type="text/css" rel="stylesheet" />
+<link href="../../planticon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="../../scripts/magnific-popup.css">
+<script src="../../scripts/jquery-1.10.1.min.js"></script>
+<script src="../../scripts/jquery.magnific-popup.min.js"></script>
+</head>
+
+<body>
+	<a id="top"></a>
+	<div id="bannerTox">
+		<a href="../../../indexTox.html"><img src="../../images/pl-gr-cattle.gif" /></a>
+	</div>
+
+	<div id="photos">
+		<div align="center"> Click on photos to enlarge</div>
+		<br />
+		<br />
+		<div class="popup-gallery">
+				<div id="photosLeft">
+					<a href="aga-pl-b.jpg" title="Blue flowered Agapanthus plant (November, Manawatu)."><img src="aga-pl-s.jpg" /><br />
+						plant</a>
+							<a href="aga-lf-b.jpg" title="Leaves (November, Manawatu)."><img src="aga-lf-s.jpg"><br>
+							leaves</a>
+							<!-- no photos yet<a href="#"><img src="#"><br>
+							fruit</a>
+							<a href="#"><img src="#"><br>
+							more</a>-->
+				</div>
+				<div id="photosRight">
+					<a href="aga-fl-b.jpg" title="Blue Agapanthus flower head (November, Manawatu)."><img src="aga-fl-s.jpg" /><br />
+						flowers</a> <a href="aga-fl-cu-b.jpg" title="Blue Agapanthus floret (November, Manawatu).."><img src="aga-fl-cu-s.jpg" /><br />
+						flowers</a>
+							<!-- no photos yet<a href="#"><img src="#"><br>
+							df</a>
+							<a href="#"><img src="#"><br>
+							more</a> -->
+				</div>
+			</div>
+		</div>
+
+		<div id="text">
+			<h1 class="commonname">Agapanthus</h1>
+			<p class="Latinname">Agapanthus spp.</p>
+			<h2>Other names</h2>
+			<p>Lily of the Nile, African bluebell, African blue lily, Common Agapanthus</p>
+			<h2 id="desc">Description</h2>
+			<p>An evergreen, perennial plant growing in leafy clumps to 60cm high, reproducing from rhizomes and seeds. Strap-like leaves about 30mm wide and flower heads in big clusters, mainly blue or white. Flowers have six petals, in a trumpet-like shape, up to 150 flowers on the flower head. Flowering is from October to February. Dead flower-heads last for many months containing seeds.</p>
+			<h2 id="simPl">Similar plants</h2>
+			<p>Garland lily <em>(Calostema purpureum)</em></p>
+			<h2 id="dist">Distribution</h2>
+			<p>Widespread, especially gardens and roadsides; native of South Africa</p>
+			<h2 id="tox">Toxin</h2>
+			<p>Yuccagenin, a haemolytic saponin; agapanthogenin, a steroidal saponin</p>
+			<h2 id="spec">Species affected</h2>
+			<p>All livestock species are affected by the plant tubers, the leaves do not seem to be poisonous.</p>
+			<h2 id="clinSiAc">Clinical signs acute</h2>
+			<p>Oral ingestion of the sap causes severe ulceration of the
+mouth and gastritis. Skin contact with the sap may cause a burning sensation,
+skin irritation, and rashes. Other symptoms include nausea, vomiting,
+abdominal pain, and diarrhoea.</p>
+			<h2 id="clinSiCh">Clinical signs chronic</h2>
+			<p>Ingestion of rhizomes may cause death </p>
+			<h2 id="pm">Post mortem signs</h2>
+			<p>Skin irritation, rashes, ulceration of oral cavity, reddening of stomach mucosa, tuber presence in stomach</p>
+			<h2 id="diag">Diagnosis</h2>
+			<p>History</p>
+			<h2 id="diff">Differential diagnosis</h2>
+			<p></p>
+			<h2 id="treat">Treatment</h2>
+			<p>Skin rashes tend to resolve on their own; water baths and
+antihistamines can minimise pain and pruritus; </p>
+			<h2 id="prog">Prognosis</h2>
+			<p>Good unless tubers have been ingested</p>
+			<h2 id="prev">Prevention</h2>
+			<p>Do not allow livestock to eat down to the tubers; apply
+glyphosates to fields; dig out tubers and root systems </p>
+			<hr />
+			<h2 id="refs">References</h2>
+			<p class="references"></p>
+			<script type="text/javascript">
+			var date = new Date(document.lastModified);
+			document.write("Last Updated: "+date.getHours()+":"+date.getMinutes()+" "+date.getDate()+ "/"+ (date.getMonth()+1)+ "/" + date.getFullYear());
+			</script>
+
+		</div>
+        <div id="suckerfish"></div>
+		<div id="topMenuA"></div>
+		<div id="logo"></div>
+		<div id="gototop">
+				<a href="#top"><b>top</b></a></div>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('.popup-gallery').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
+				preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+			},
+			image: {
+				tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
+				titleSrc: function(item) {
+					return item.el.attr('title') ;
+				}
+			}
+		});
+		$('#suckerfish').load("../../Scripts/suckerfincP.html");
+		$('#topMenuA').load("../../Scripts/topMenuAinc.html");
+	});
+	</script>
+</body>
+</html>
+

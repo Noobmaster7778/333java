@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content collectionGUID="DA8004C5-F4E1-4127-A339-DAB7E8AA18E6">
+  <lastEdited clientType="local-build-20080526" date="2008-05-26 14:59:57 +1200"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Autacoids&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Gives an overview of neuromodulators / inflammatory mediators which affect the peripheral nervous system and the drugs which alter their function.</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Thursday, 10 April 2008&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>Autacoids</richText>
+  </textBox>
+</content>

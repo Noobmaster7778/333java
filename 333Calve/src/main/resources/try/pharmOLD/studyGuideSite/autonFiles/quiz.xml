@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<QUIZ TITLE="Autonomic Pharmacology">
+  <QUESTION TEXT="1. Noradrenaline acting on &#945;1 receptors is likely to produce" 
+  	ANSWER="2" 
+  	DefaultFeedback="Noradrenaline produces tachycardia by acting on &#946;1 receptors. The bronchial smooth muscle has no sympathetic innervation, although circulating adrenaline can produce relaxation by acting at &#946;2 receptors. Noradrenaline is very effective at causing arteriolar vasoconstriction, has no effect on the lacrymal gland and causes uterine contraction by an &#945; effect.">
+    <CHOICE>tachycardia</CHOICE>
+    <CHOICE>vasoconstriction</CHOICE>
+    <CHOICE>bronchoconstriction</CHOICE>
+    <CHOICE>lachrymation</CHOICE>
+    <CHOICE>relaxation of the uterus</CHOICE>
+  </QUESTION> 
+  
+  <QUESTION TEXT="2. Mydriasis may be produced by" 
+  	ANSWER="5" 
+  	DefaultFeedback="Mydriasis (widening of the pupil) can be produced by muscarinic acetylcholine antagonists and &#945;1 agonists (phenylephrine). Muscarinic agonists (pilocarpine) and opioids (morphine) cause miosis. Isoprenaline and prazosin have no effect.">
+    <CHOICE>prazosin</CHOICE>
+    <CHOICE>morphine</CHOICE>
+    <CHOICE>pilocarpine</CHOICE>
+    <CHOICE>isoprenaline</CHOICE>
+    <CHOICE>phenylephrine</CHOICE>
+  </QUESTION> 
+  
+  <QUESTION TEXT="3. Atropine" 
+  	ANSWER="4" 
+  	DefaultFeedback="Atropine is the most widely used muscarinic (competitive) antagonist. It blocks most parasympathetic effects including salivary secretion and gut spasm, but it is not very effective at stopping motion sickness. It blocks the muscarinic effects of excess acetylcholine when its breakdown is prevented by organophosphates. Its effects in the eye last for hours (its effects on the heart are of short duration).">
+  	<CHOICE>is a competitive antagonist at nicotinic receptors</CHOICE>
+    <CHOICE>increases salivary secretion</CHOICE>
+    <CHOICE>lasts for 5 minutes when applied to the eye</CHOICE>
+    <CHOICE>is useful in the treatment of organophosphate poisoning</CHOICE>
+    <CHOICE>can prevent motion sickness in dogs</CHOICE>
+ </QUESTION>
+  
+  <QUESTION TEXT="4. The effects of &#945;2 agonists usually include" 
+  	ANSWER="2" 
+  	DefaultFeedback="&#945;2 agonists produce sedation by an action on the locus coeruleus in the brainstem. They usually produce a vasoconstriction (direct local effect on blood vessels) followed by vasodilatation mediated at several central sites. The same happens in the gut and they can produce ileus. They transiently block insulin secretion causing mild hyperglycaemia. Vasoconstriction leads to hypertension which results in reflex bradycardia. This can be very obvious with &#945;2 agonists.">
+  	<CHOICE>excitement</CHOICE>
+    <CHOICE>vasodilatation</CHOICE>
+    <CHOICE>hypoglycaemia</CHOICE>
+    <CHOICE>diarrhoea</CHOICE>
+    <CHOICE>tachycardia</CHOICE>
+  </QUESTION>  
+  
+  <QUESTION TEXT="5. Suxamethonium" 
+  	ANSWER="3" 
+  	DefaultFeedback="Suxamethonium is clinically used to block transmission at the NMJ but it does this by binding to the nicotinic receptors and acting as an agonist. This causes the muscle cell to fire, but the suxamethonium does not dissociate from the receptor immediately, in the way that acetylcholine does, so further activation of the receptor cannot take place. It is broken down by plasma cholinesterase after it has dissociated from the receptor and diffused out of the synapse. It only blocks ganglia at very high doses (incompatible with life).">
+    <CHOICE>is a competitive antagonist at the NMJ</CHOICE>
+    <CHOICE>blocks transmission in ganglia</CHOICE>
+    <CHOICE>is an agonist at muscle nicotinic receptors</CHOICE>
+    <CHOICE>is hydrolysed by acetylcholinesterase</CHOICE>
+    <CHOICE>is composed of 7 subunits</CHOICE>
+  </QUESTION> 
+  
+  <QUESTION TEXT="6. The skeletal muscle nicotinic acetyl choline receptor" 
+  	ANSWER="3" 
+  	DefaultFeedback="The NMJ nicotinc receptors are ligand gated ion channels. Most of the ions which go through are sodium but some potassium and calcium ions also pass. The receptor is composed of two &#945; subunits which must each bind a molecule of ACh, plus one each of &#946;, &#948; and &#947; subunits (at any rate in the electric ray Torpedo, mammals are assumed to be similar!). Atracurium is a competitive antagonist.">
+  	<CHOICE>is activated by a change in membrane potential</CHOICE>
+    <CHOICE>is selectively permeable to sodium ions</CHOICE>
+    <CHOICE>changes conformation when bound by 2 molecules of acetyl choline</CHOICE>
+    <CHOICE>ion channel opens when atracurium is bound</CHOICE>
+    <CHOICE>is identical to the ganglionic ACh receptor</CHOICE>
+  </QUESTION>
+  
+  <QUESTION TEXT="7. Vomiting in the dog can be controlled using" 
+  	ANSWER="5" 
+  	DefaultFeedback="Apomorphine is a dopamine agonist which reliably causes vomiting in most species. Xylazine causes vomiting in about 30% of dogs. Metaclopramide is a dopamine antagonist whichis usually effective in stopping vomiting. Diazepam has no effect; kaolin and morphine is used to treat diarrhoea.">
+  	<CHOICE>apomorphine</CHOICE>
+    <CHOICE>xylazine</CHOICE>
+    <CHOICE>diazepam</CHOICE>
+    <CHOICE>kaolin and morphine</CHOICE>
+    <CHOICE>metaclopramide</CHOICE>
+  </QUESTION>
+  
+  <QUESTION TEXT="8. The best treatment for mild diarrhoea in calves is" 
+  	ANSWER="5" 
+  	DefaultFeedback="Oral fluids are the best treatment for mild diarrhoea in any species.">
+  	<CHOICE>a mixture of sulphonamides and aminoglycoside antibiotics</CHOICE>
+    <CHOICE>codeine per rectum</CHOICE>
+    <CHOICE>a 3rd generation cephalosporin antibiotic</CHOICE>
+    <CHOICE>metaclopramide</CHOICE>
+    <CHOICE>oral fluids</CHOICE>
+  </QUESTION>
+  
+  <QUESTION TEXT="9. Chronic obstructive pulmonary disease in the horse may be prevented using" 
+  	ANSWER="4" 
+  	DefaultFeedback="The aetiology of COPD is complex, but many cases are improved by bronchodilators. Adrenaline is too short acting to be any use, as well as having major side effects on the heart. Sodium cromoglycate is used for prevention. Acetylcholine and histamine will cause bronchoconstriction. Bacteria are not involved so penicillin does not work.">
+  	<CHOICE>acetyl choline analogues</CHOICE>
+    <CHOICE>histamine</CHOICE>
+    <CHOICE>adrenaline</CHOICE>
+    <CHOICE>sodium cromoglycate</CHOICE>
+    <CHOICE>penicillin</CHOICE>
+  </QUESTION>
+  
+  <QUESTION TEXT="10. You have been treating an 8yr old mongrel with NSAIDs for severe hip arthritis for 3 wks. The dog initially improved but is now anorexic, depressed and unwilling to move. Endoscopy reveals gastric ulceration. The best course of action is"
+  	 ANSWER="3"
+  	 DefaultFeedback="The ulcers are probably caused by the NSAIDs, so either another analgesic must be given or an antiulcer drug must be added to the NSAID treatment. Morphine may be effective, but it is not a good idea to prescribe drugs of abuse unless there is absolutely no alternative.">
+  	<CHOICE>continue NSAIDs as it is more important to treat pain than the ulcers</CHOICE>
+    <CHOICE>stop the NSAIDs</CHOICE>
+	<CHOICE>continue NSAIDs but add misoprostol</CHOICE>
+    <CHOICE>prescribe morphine tablets instead of the NSAIDs</CHOICE>
+    <CHOICE>continue NSAIDs but feed the dog a balnd diet</CHOICE>
+  </QUESTION>
+   
+</QUIZ>

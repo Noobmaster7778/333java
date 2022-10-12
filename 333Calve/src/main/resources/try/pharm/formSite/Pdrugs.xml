@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<drugsP>
+	<drug>
+		<BAN>pancuronium</BAN>
+		<USAN>pancuronium</USAN>
+		<INN>pancuronium</INN>
+		<class>competitive muscle relaxant</class>
+		<indication>muscle relaxation under anaesthesia</indication>
+		<contraInd>conscious animal</contraInd>
+		<sideEffects>apnoea - give IPPV, tachycardia</sideEffects>
+		<care>facilities for IPPV needed</care>
+		<pks>unknown</pks>
+		<dose>dog, horse: 60mcg/kg iv lasts about 45min</dose>
+		<plasmaL>unknown</plasmaL>
+		<notes>use atracurium instead</notes>
+	</drug>
+	
+	<drug>
+		<BAN>paroxetine</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>SSRI antidepressant</class>
+		<indication>behaviour problems</indication>
+		<contraInd></contraInd>
+		<sideEffects>anorexia, anxiety</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>dog and cat 2.5 - 5mg/animal once daily po</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+	
+	<drug>
+		<BAN>pentazocine</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>opioid partial agonist (k agonist?)</class>
+		<indication>moderate pain, anaesthetic premed</indication>
+		<contraInd></contraInd>
+		<sideEffects>bizarre behaviour - hallucinations?</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>cats 2 - 3 mg/kg sc, im, iv</dose>
+		<plasmaL></plasmaL>
+		<notes>little used</notes>
+	</drug>
+	
+	<drug>
+		<BAN>pentobarbitone</BAN>
+		<USAN>pentobarbital</USAN>
+		<INN>pentobarbital</INN>
+		<class>barbiturate anaesthetic, controlled drug C4</class>
+		<indication>euthanasia, long term anaesthesia</indication>
+		<contraInd>no facilities for intubation</contraInd>
+		<sideEffects>respiratory depression</sideEffects>
+		<care>Beware splashes in eyes etc - it will anaesthetise people too.</care>
+		<pks>unknown, but lasts a long time</pks>
+		<dose>euthanasia: 120 - 200mg/kg iv, 
+					anaesthesia: 15 - 25mg/kg iv, 
+					basal narcosis: 2 - 4mg/kg iv</dose>
+		<plasmaL></plasmaL>
+		<notes>Usually also contains propylene glycol and ethanol.</notes>
+	</drug>
+	
+	<drug>
+		<BAN>pentosan polysulphate</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>anti-arthritis drug</class>
+		<indication>adjunct therapy to correct the cause of osteoarthritis (cruciate or intra articular fracture), chronic osteoarthritis, primary osteoarthritis, degenerative joint disease</indication>
+		<contraInd>infection, clotting defects or traumatic haemorrhage, liver or kidney disease</contraInd>
+		<sideEffects>local reaction post-injection when given intra-articularly. Heparin like clotting problems and immune mediated hypersensitivity have occurred in people.</sideEffects>
+		<care>aseptic injection technique compulsory</care>
+		<pks></pks>
+		<dose>horse: 120-240mg intra-articularly every 7 days for 3-4 treatments or im or sc 500mg every 4 days for up to 7 treatments (probably not as effective);
+					dog 10mg/kg orally or 3mg/kg im every 7 days minimum or as needed</dose>
+		<plasmaL></plasmaL>
+		<notes>inhibits new blood vessel growth - being investigated for tumours and chronic inflammation</notes>
+	</drug>
+	
+	<drug>
+		<BAN>pethidine</BAN>
+		<USAN>meperidine</USAN>
+		<INN>pethidine</INN>
+		<class>weak mu opioid agonist - controlled drug B3</class>
+		<indication>moderate pain, colic, anaesthetic premed, post anaesthetic shivering</indication>
+		<contraInd></contraInd>
+		<sideEffects>respiratory depression with anaesthetics</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>cats, dogs: 3.5 - 10mg/kg im, 10 - 15mg/kg sc every 2 - 3 hours at least; horses: 1 - 2mg/kg im every 1 - 2 hours; pig, sheep 2mg/kg im or iv every 2 - 3 hours; post anaesthetic shivering - 0.5mg/kg iv</dose>
+		<plasmaL></plasmaL>
+		<notes>too short acting to be much use in most circumstances</notes>
+	</drug>
+	
+	<drug>
+		<BAN>phenobarbitone</BAN>
+		<USAN>phenobarbital</USAN>
+		<INN>phenobarbital</INN>
+		<class>anticonvulsant - controlled drug C5</class>
+		<indication>status epilepticus, prevention of seizures</indication>
+		<contraInd></contraInd>
+		<sideEffects>sedation, polyphagia, increased liver enzymes, respiratory depression in overdose</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>status epilepticus: (use a benzodiazepine first) dogs and cats: 3 - 6mg/kg iv to effect every 6 - 12 hours; foals 20mg/kg slow iv over 30 mins; prevention of seizures: dogs, cats: 1.5 - 5mg/kg po twice daily; horses 4 - 10mg/kg po twice daily</dose>
+		<plasmaL>dog: 15 - 45 mcg/ml (65 - 194 mcM) but usually in the range 25 - 35 mcg/ml (108 - 150 mcM); with bromide: 9 - 36 mcg/ml; cat: 10 - 30 mcg/ml (50 - 140 mcM)</plasmaL>
+		<notes></notes>
+	</drug>
+	
+	<drug>
+		<BAN>phenoxybenzamine</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>adrenergic &#945;2 agonist</class>
+		<indication>relaxation of internal sphincter of bladder in urinary retention (often given with diazepam)</indication>
+		<contraInd>heart disease</contraInd>
+		<sideEffects></sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>dogs: 0.25 - 0.5mg/kg po 2 - 3 times daily; cats: 0.5mg/kg po twice daily</dose>
+		<plasmaL></plasmaL>
+		<notes>binds irreversibly to receptors so plasma levels give no indication of clinical effect</notes>
+	</drug>
+	
+	<drug>
+		<BAN>phenylbutazone</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>NSAID</class>
+		<indication>inflammation (pain)</indication>
+		<contraInd></contraInd>
+		<sideEffects>gut ulceration, kidney failure (blood dyscrasias)</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>cattle:2 - 5mg/kg iv, 4 - 8mg/kg po every other day not recommended - very long withholding period; pigs: 2 - 4mg/kg iv or po daily; horses: withholding period 6 months</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+	
+	<drug>
+		<BAN>phenylpropanolamine</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>adrenergic &#945;1 agonist</class>
+		<indication>increase bladder internal spnincter tone (usually hormonal incontinence)</indication>
+		<contraInd></contraInd>
+		<sideEffects></sideEffects>
+		<care>cardiovascular disease</care>
+		<pks></pks>
+		<dose>dog: 1.5mg/kg po every 8 - 12 hrs, can be inceased to 3mg/kg if side effects allow, then reduce to minimum that works</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+	
+	<drug>
+		<BAN>phenytoin</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>anticonvulsant / class 1 antiarrhythmic</class>
+		<indication>digitalis toxicity</indication>
+		<contraInd>cats, liver disease, pregnancy</contraInd>
+		<sideEffects></sideEffects>
+		<care></care>
+		<pks>metabolised in the liver, very short half life in dogs compared to humans, dose dependent (zero order) elimination kinetics in humans, not in dogs or the horse</pks>
+		<dose>antiarrhythmic: dog: 35-50 mg/kg po three times daily; anticonvulsant: dog: 10 - 35mg/kg po three times daily and adjust as necessary</dose>
+		<plasmaL>10 - 20mcg/mL (40 - 80mcM)</plasmaL>
+		<notes></notes>
+	</drug>
+	
+	<drug>
+		<BAN>phytomenadione</BAN>
+		<USAN>phytonadione (phylloquinone)</USAN>
+		<INN>phytomenadione</INN>
+		<class>vitamin K1</class>
+		<indication>warfarin type anticoagulant overdose</indication>
+		<contraInd></contraInd>
+		<sideEffects>occasional anaphyllactoid reactions after iv injection (polyethoxylated castor oil vehicle)</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>dog: 2.5 - 5 mg/kg iv / sc (at several sites) depending on urgency of situation; then po: if warfarin 1mg/kg for 6 days; if brodifacoum 2.5mg/kg for 3 weeks; if diphacinone 5mg/kg for 4 weeks</dose>
+		<plasmaL></plasmaL>
+		<notes>similar protocols have been used in cats, but there is no info on their safety</notes>
+	</drug>
+	
+	<drug>
+		<BAN>pilocarpine</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>muscarinic agonist</class>
+		<indication>glaucoma</indication>
+		<contraInd>anterior uveitis, anterior lens luxation</contraInd>
+		<sideEffects>local irritation</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>several drops of 1 or 2% solution on cornea 3 - 4 times daily</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+	
+	<drug>
+		<BAN>pralidoxime</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>cholinesterase reactivator</class>
+		<indication>organophosphate poisoning, carbamate poisoning?</indication>
+		<contraInd></contraInd>
+		<sideEffects></sideEffects>
+		<care>myaesthenia gravis</care>
+		<pks></pks>
+		<dose>horses and cattle: 10 - 40mg/kg slowly iv; dogs: 20 - 50mg/kg slowly iv; cats: 20mg/kg slowly iv</dose>
+		<plasmaL></plasmaL>
+		<notes>give atropine 25 - 200mcg/kg as well; expensive</notes>
+	</drug>
+	
+	<drug>
+		<BAN>prazosin</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>adrenergic &#945;1 antagonist</class>
+		<indication>obsolescent vasodilator - adjunctive therapy of congestive heart failure particularly secondary to mitral or aortic valve insufficiency when hydralazine is not effective or not tolerated, treatment of systemic hypertension or pulmonary hypertension in the dog, or in dogs that do not respond well to other drugs</indication>
+		<contraInd></contraInd>
+		<sideEffects>hypotension, may get syncope (orthostatic hypotension), CNS signs, GIT signs, tolerance develops</sideEffects>
+		<care>chronic renal failure</care>
+		<pks></pks>
+		<dose>dog: 0.5 - 2mg/animal po 2 - 3 times daily - titrate to effect and monitor</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+	
+	<drug>
+		<BAN>procainamide</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>class 1 antiarrhythmic</class>
+		<indication>ventricular tachyarrhythmias (supraventricular arrhythmias in high doses?)</indication>
+		<contraInd></contraInd>
+		<sideEffects>QRS duration and Q-T interval prolongation, can also stimulate ventricular tachyarrhythmias. Higher concentrations decrease myocardial contractility and produce hypotension; Gut disturbances</sideEffects>
+		<care>renal disease - reduce dose</care>
+		<pks>absorption: po - sustained release tablets usually used in dogs; metabolism: short tl/2 of 2.5 - 4.7 hours therefore require either an iv infusion or sustained release. Unlike humans not extensively metabolised with 50-70% of an iv dose excreted unchanged; elimination: 90% of an iv dose excreted in urine within 24 hours</pks>
+		<dose>dogs: 8 - 30 mg/kg po 4 times daily (ordinary tablets) or 3 times daily (sustained release tablets)</dose>
+		<plasmaL></plasmaL>
+		<notes>now only available as injection</notes>
+	</drug>
+	
+	<drug>
+		<BAN>prochlorperazine</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>phenothiazine antiemetic</class>
+		<indication>intractable vomiting</indication>
+		<contraInd></contraInd>
+		<sideEffects>sedation, hypotension</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>dogs and cats: 100 - 200mcg/kg 3 - 4 times daily im, or 50mcg/kg 3 - 4 times daily iv</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+	
+	<drug>
+		<BAN>propofol</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>injectable anaesthetic</class>
+		<indication></indication>
+		<contraInd></contraInd>
+		<sideEffects></sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>dogs:unpremedicated: 5 - 6mg/kg iv; premedicated: 3- 4mg/kg iv; alfentanil premed: 1.5 - 2mg/kg; cats: unpremedicated: 8mg/kg iv, premed: 6mg/kg iv</dose>
+		<plasmaL></plasmaL>
+		<notes>some cats have a slow recovery</notes>
+	</drug>
+	
+	<drug>
+		<BAN>propranolol</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>non specific &#946; blocker</class>
+		<indication>tachyarrhythmias, hypertrophic cardiomyopathy, hyperthyroidism</indication>
+		<contraInd>overt heart failure, greater than first degree heart block, asthma or chronic lower airway disease due to beta blocking as it may further constrict airways</contraInd>
+		<sideEffects>bronchospasm, myocardial depression, bradycardia, hypotension</sideEffects>
+		<care>diabetics - decreased sympathetic compensation for hypo-glycaemia, renal or hepatic insufficiency, in combination with digitalis</care>
+		<pks>absorption: biavailability between 2 - 17% after first pass effect in the liver; distribution: highly lipid soluble and readily crosses the blood brain barrier; metabolism: has extensive first pass effect in the liver, t1/2 in dog is 1-2 hours, effects seen longer than half life because of active metabolites and receptor binding; elimination: renal with less than 1% unchanged</pks>
+		<dose>dogs: ventricular arrhythmias:  20 - 60 mcg/kg iv slowly then 100mcg/kg po three times daily increasing over a week to a max of 1mg/kg three times daily; cats: 40mcg/kg slowly iv then 2.5mg/kg po three times daily increasing to a max of 10mg/kg three times daily</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+	
+	<drug>
+		<BAN>protamine</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class></class>
+		<indication>heparin overdose</indication>
+		<contraInd></contraInd>
+		<sideEffects>transient hypotension</sideEffects>
+		<care></care>
+		<pks></pks>
+		<dose>1mg for every 100units heparin slowly iv</dose>
+		<plasmaL></plasmaL>
+		<notes></notes>
+	</drug>
+	
+	<drug>
+		<BAN>pseudoephedrine</BAN>
+		<USAN></USAN>
+		<INN></INN>
+		<class>adrenergic &#945;1 agonist</class>
+		<indication>urinary incontinence in bitches; nasal decongestion in cats</indication>
+		<contraInd></contraInd>
+		<sideEffects>restlessness, sleeplessness</sideEffects>
+		<care></care>
+		<pks>Does not cross blood brain barrier to any great extent</pks>
+		<dose>dog: 15 - 60mg po 2 - 3 times daily; cat: 2 - 4mg/kg twice daily</dose>
+		<plasmaL></plasmaL>
+		<notes>available as human nasal decongestants &#amp; cold remedies; precursor for methamphetamine</notes>
+	</drug>
+	
+</drugsP>

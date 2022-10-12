@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<content collectionGUID="5F455181-632A-461D-8A0F-A931ADEC6705">
+  <lastEdited clientType="local-build-20090310" date="2009-03-10 14:31:03 +1300"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;03 Drug - Receptor Interactions&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Thursday, 26 February 2009&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;A brief overview of drug - receptor interactions. Drug agonism, partial agonism, antagonism, concentration - response curves, ED50 and EC50 with a bit on the clinical relevance.&lt;/b&gt;</richText>
+  </textBox>
+</content>

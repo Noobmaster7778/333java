@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name="generator" content="Adobe GoLive" />
+		<title>machChk</title>
+		<link href="anaes.css" rel="stylesheet" type="text/css" media="all" />
+		
+		<style type="text/css">
+
+#dhtmltooltip{
+position: absolute;
+width: 150px;
+border: 2px solid black;
+padding: 2px;
+background-color: lightyellow;
+visibility: hidden;
+z-index: 100;
+/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
+
+</style>
+		
+	</head>
+
+	<body class="body">
+	
+	<a id="top" name="top"></a>
+	
+	<script type='text/javascript'>
+
+//HV Menu v5.411- by Ger Versluis (http://www.burmees.nl/)
+//Submitted to Dynamic Drive (http://www.dynamicdrive.com)
+//Visit http://www.dynamicdrive.com for this script and more
+
+function Go(){return}
+
+</script>
+		<script type='text/javascript' src="anaesMenu_var.js"></script>
+		<script type='text/javascript' src="menu_com.js"></script>
+	
+	<script src="jumptop2.js">
+
+/***********************************************
+* Jump To Top Link Script- © Dynamic Drive (www.dynamicdrive.com)
+* Last updated Nov 13th, 03'.
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+
+<div id="dhtmltooltip"></div>
+
+<script type="text/javascript">
+
+/***********************************************
+* Cool DHTML tooltip script- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+var offsetxpoint=-60 //Customize x offset of tooltip
+var offsetypoint=20 //Customize y offset of tooltip
+var ie=document.all
+var ns6=document.getElementById && !document.all
+var enabletip=false
+if (ie||ns6)
+var tipobj=document.all? document.all["dhtmltooltip"] : document.getElementById? document.getElementById("dhtmltooltip") : ""
+
+function ietruebody(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function ddrivetip(thetext, thecolor, thewidth){
+if (ns6||ie){
+if (typeof thewidth!="undefined") tipobj.style.width=thewidth+"px"
+if (typeof thecolor!="undefined" && thecolor!="") tipobj.style.backgroundColor=thecolor
+tipobj.innerHTML=thetext
+enabletip=true
+return false
+}
+}
+
+function positiontip(e){
+if (enabletip){
+var curX=(ns6)?e.pageX : event.clientX+ietruebody().scrollLeft;
+var curY=(ns6)?e.pageY : event.clientY+ietruebody().scrollTop;
+//Find out how close the mouse is to the corner of the window
+var rightedge=ie&&!window.opera? ietruebody().clientWidth-event.clientX-offsetxpoint : window.innerWidth-e.clientX-offsetxpoint-20
+var bottomedge=ie&&!window.opera? ietruebody().clientHeight-event.clientY-offsetypoint : window.innerHeight-e.clientY-offsetypoint-20
+
+var leftedge=(offsetxpoint<0)? offsetxpoint*(-1) : -1000
+
+//if the horizontal distance isn't enough to accomodate the width of the context menu
+if (rightedge<tipobj.offsetWidth)
+//move the horizontal position of the menu to the left by it's width
+tipobj.style.left=ie? ietruebody().scrollLeft+event.clientX-tipobj.offsetWidth+"px" : window.pageXOffset+e.clientX-tipobj.offsetWidth+"px"
+else if (curX<leftedge)
+tipobj.style.left="5px"
+else
+//position the horizontal position of the menu where the mouse is positioned
+tipobj.style.left=curX+offsetxpoint+"px"
+
+//same concept with the vertical position
+if (bottomedge<tipobj.offsetHeight)
+tipobj.style.top=ie? ietruebody().scrollTop+event.clientY-tipobj.offsetHeight-offsetypoint+"px" : window.pageYOffset+e.clientY-tipobj.offsetHeight-offsetypoint+"px"
+else
+tipobj.style.top=curY+offsetypoint+"px"
+tipobj.style.visibility="visible"
+}
+}
+
+function hideddrivetip(){
+if (ns6||ie){
+enabletip=false
+tipobj.style.visibility="hidden"
+tipobj.style.left="-1000px"
+tipobj.style.backgroundColor=''
+tipobj.style.width=''
+}
+}
+
+document.onmousemove=positiontip
+
+</script>
+		
+		<p class="g_nav_cellcolor">Anaesthetic machine routine check</p>
+		<p>This check should be carried out each time before using the machine.</p>
+		<p><img src="images/anaesMach.jpg" alt="" height="600" width="800" usemap="#anaesMachbf34809a" border="0" /><map name="anaesMachbf34809a"><area shape="poly" coords="183,320,184,348,425,377,553,448,598,465,675,430,719,364,750,236,729,236,708,343,630,434,609,344,594,277,597,227,578,226,573,279,602,417,578,423,502,366,429,338,239,315" alt=""onMouseover="ddrivetip('patient breathing tubing','white', 80)";
+onMouseout="hideddrivetip()"/><area shape="circle" coords="154,338,22" alt=""onMouseover="ddrivetip('endotracheal tube connection','white', 90)";
+onMouseout="hideddrivetip()"/><area shape="rect" coords="665,20,741,60" alt=""onMouseover="ddrivetip('radio','white', 50)";
+onMouseout="hideddrivetip()"/><area shape="poly" coords="625,155,625,174,656,162,704,171,738,191,768,240,782,316,792,310,787,252,756,187,720,159,678,146" alt=""onMouseover="ddrivetip('scavenge tubing','white', 80)";
+onMouseout="hideddrivetip()"/><area shape="poly" coords="711,184,708,219,749,225,736,197" alt=""onMouseover="ddrivetip('inspiratory one way valve','white', 80)";
+onMouseout="hideddrivetip()"/><area shape="rect" coords="577,173,617,216" alt=""onMouseover="ddrivetip('expiratory one way valve','white', 80)";
+onMouseout="hideddrivetip()"/><area shape="rect" coords="581,108,617,164" alt=""onMouseover="ddrivetip('pop off valve','white', 50)";
+onMouseout="hideddrivetip()"/><area shape="poly" coords="747,309,702,407,734,396,766,401,771,431,754,453,725,455,702,448,739,544,762,532,778,475,778,361,770,310" alt=""onMouseover="ddrivetip('rebreathing bag','white', 80)";
+onMouseout="hideddrivetip()"/><area shape="poly" coords="626,223,601,240,600,283,612,330,654,352,704,340,718,264,688,226,626,223" alt=""onMouseover="ddrivetip('soda lime canister','white', 80)";
+onMouseout="hideddrivetip()"/><area shape="circle" coords="660,191,26" alt=""onMouseover="ddrivetip('circuit manometer','white', 80)";
+onMouseout="hideddrivetip()"/><area shape="rect" coords="448,436,486,477" alt=""onMouseover="ddrivetip('common gas outlet','white', 150)";
+onMouseout="hideddrivetip()"/><area shape="rect" coords="400,122,433,152" alt=""onMouseover="ddrivetip('emergency oxygen flush','white', 180)";
+onMouseout="hideddrivetip()"/><area shape="poly" coords="251,91,240,125,245,199,274,208,308,217,313,169,310,123,285,87,251,87" alt=""onMouseover="ddrivetip('halothane vaporiser','white', 80)";
+onMouseout="hideddrivetip()"/><area shape="poly" coords="141,124,142,207,162,225,163,251,146,265,148,299,206,298,197,123,141,124" alt=""onMouseover="ddrivetip('gas flowmeters','white', 120)";
+onMouseout="hideddrivetip()"/><area shape="poly" coords="33,368,22,449,7,500,7,525,30,459,48,372,35,367" alt=""onMouseover="ddrivetip('piped oxygen supply','white', 150)";
+onMouseout="hideddrivetip()"/><area shape="poly" coords="61,288,38,335,56,352,74,346,92,303,83,284,63,289" alt=""onMouseover="ddrivetip('oxygen pressure gauges','white', 150)";
+onMouseout="hideddrivetip()"/><area shape="circle" coords="768,115,19" alt=""onMouseover="ddrivetip('Check scavenge tube is connected','yellow', 250)";
+onMouseout="hideddrivetip()"/><area shape="circle" coords="742,423,18" alt=""onMouseover="ddrivetip('Squeeze bag','yellow', 100)";
+onMouseout="hideddrivetip()"/><area shape="circle" coords="89,392,21" alt="" onMouseover="ddrivetip('Put your thumb over animal end of circuit','yellow', 300)";
+onMouseout="hideddrivetip()"/><area shape="circle" coords="534,98,19" alt="" onMouseover="ddrivetip('Close pop off valve','yellow', 150)";
+onMouseout="hideddrivetip()"/><area shape="circle" coords="407,497,19" alt="" onMouseover="ddrivetip('Check circuit is connected','yellow', 200)";
+onMouseout="hideddrivetip()"/><area shape="circle" coords="216,98,19" alt="" onMouseover="ddrivetip('Check vaporiser','yellow', 120)";
+onMouseout="hideddrivetip()"/><area shape="circle" coords="131,238,21" alt="" onMouseover="ddrivetip('Check oxygen flow','yellow', 150)";
+onMouseout="hideddrivetip()"/><area shape="circle" coords="65,247,22" alt="" onMouseover="ddrivetip('Check oxygen source','yellow', 160)";
+onMouseout="hideddrivetip()"/></map></p>
+		<ol>
+			<li>Check that there is a source of oxygen attached (either a gas line or bottle) and that there is sufficient oxygen for the anaesthetic.</li>
+			<li>Turn on the flowmeter and check that the ball or bobbin stays steady (the bobbin should spin round but not jump up and down).</li>
+			<li>Check that there is a suitable vaporiser attached, that it contains enough halothane, that you know how to turn it on and that it does actually turn on - they sometimes get jammed up.</li>
+			<li>Ensure that there is a breathing circuit attached to the common gas outlet. You will use a circle system on both the dogs and sheep. </li>
+			<li>Close the pop off valve.</li>
+			<li>Put your thumb over the animal end of the circuit and put some gas into the circuit. </li>
+			<li>You can either fill the bag and watch it to check that it stays inflated, or squeeze it and feel for leaks / watch the pressure gauge for a drop in pressure. Normal animals should not need more than 20cm water to inflate their chests.</li>
+			<li>Keeping your thumb over the animal end of the circuit, open the pop off valve and squeeze the bag to make sure that the pop off valve opens properly.</li>
+			<li>Check that the scavenging tubing is connected to the pop off valve and to the wall connector at the other end.</li>
+		</ol>
+		<p>There are other types of checks done at the start of the day's anaesthesia, assume everything was working then and just do this basic check.</p>
+		<p><input type="Button" value="Previous Page" onclick="history.go(-1)" /></p>
+	</body>
+
+</html>

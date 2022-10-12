@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<QUIZ TITLE="Pharmacology of Inflammation and Hormones">
+  <QUESTION TEXT="1. Parturition may be induced in dairy cows using"
+  	ANSWER="2" 
+  	DefaultFeedback="There are species differences, but induction of parturition is only common in cattle. In ruminants, foetal production of corticosteroids causes PGF2&#945; to be released from the placenta which causes parturition to begin. Exogenous corticosteroids mimic this. &#946;2 agonists relax uterine muscle and delay parturition. NSAIDs do not have much effect. Calcium is given to cows where parturition is delayed by uterine inertia caused by hypocalcaemia.">
+  	<CHOICE>clenbuterol</CHOICE>
+    <CHOICE>dexamethasone</CHOICE>
+    <CHOICE>flunixin</CHOICE>
+    <CHOICE>zearalenone</CHOICE>
+    <CHOICE>calcium borogluconate</CHOICE>
+  </QUESTION> 
+  
+  <QUESTION TEXT="2. Prostaglandins in cattle are not involved in"
+  	ANSWER="4" 
+  	DefaultFeedback="A variety of PGs are involved in inflammation; PGE2 mediates fever, aspirin blocks cyclo-oxygenase which converts arachidonic acid to PGs. PGF2&#945; causes bronchoconstriction, PGE causes bronchodilatation.">
+    <CHOICE>inflammation</CHOICE>
+    <CHOICE>fever</CHOICE>
+    <CHOICE>parturition</CHOICE>
+    <CHOICE>rumination</CHOICE>
+    <CHOICE>bronchodilatation</CHOICE>
+  </QUESTION> 
+  
+  <QUESTION TEXT="3. Non-steroidal anti-inflammatory drugs" 
+  	ANSWER="1" 
+  	DefaultFeedback="All currently used NSAIDs block both COX1 and COX2. Opioids and capsaicin can affect substance P release, NSAIDs have not been shown to. Although bradykinin can cause pain on its own, its effects are markedly potentiated by PGs. Thus in real life, NSAIDs reduce the pain caused by bradykinin. The vasodilatation produced by calcitonin gene related peptide is thought to be mediated by nitric oxide, NSAIDs have no effect. There is some evidence that prostaglandins block protein kinase C in primary afferent cells.">
+  	<CHOICE>inhibit cyclo-oxygenase 1 and 2</CHOICE>
+    <CHOICE>block the release of substance P from nociceptors</CHOICE>
+    <CHOICE>prevent vasodilatation caused by CGRP</CHOICE>
+    <CHOICE>increase the pain caused by bradykinin</CHOICE>
+    <CHOICE>block phosphokinase C in dorsal horn neurones</CHOICE>
+  </QUESTION>
+  
+  <QUESTION TEXT="4. Paracetamol" 
+  	ANSWER="3" 
+  	DefaultFeedback="Paracetamol (acetaminophen) does not usually kill dogs but is very toxic to cats. A toxic intermediate metabolite causes liver damage, this is inactivated by glutathione (acetylcysteine is usually given which is converted to glutathione in cells). Paracetamol does not cause gastric ulceration at normal doses.">
+  	<CHOICE>kills dogs</CHOICE>
+    <CHOICE>causes gastric ulceration</CHOICE>
+    <CHOICE>causes liver necrosis in overdose</CHOICE>
+    <CHOICE>overdose may be treated with methylene blue</CHOICE>
+    <CHOICE>is safe in cats</CHOICE>
+  </QUESTION>  
+  
+  <QUESTION TEXT="5. Hydrocortisone" 
+  	ANSWER="2" 
+  	DefaultFeedback="Hydrocortisone (cortisol), as the name implies, comes from the cortex. It is effective by most routes although it is often given iv. It has equal mineralocorticoid and glucocorticoid effects. It will produce the same side effects as any other corticosteroid if given for too long.">
+  	<CHOICE>is synthesised in the adrenal medulla</CHOICE>
+    <CHOICE>is effective when swallowed</CHOICE>
+    <CHOICE>has purely mineralocorticoid activity</CHOICE>
+    <CHOICE>can be antagonised by spironalactone</CHOICE>
+    <CHOICE>very rarely causes side effects when used for a long time</CHOICE>
+  </QUESTION> 
+  
+  <QUESTION TEXT="6. Corticosteroids with mainly glucocorticoid activity" 
+  	ANSWER="3" 
+  	DefaultFeedback="All glucocorticoids are anti-inflammatory and depress the hypothalamic - pituitary - adrenal axis. They all have a wide variety of CNS effects as well. Aldosterone and fludrocortisone are almost purely mineralocorticoid.">
+  	<CHOICE>include fludrocortisone</CHOICE>
+    <CHOICE>are free of actions in the CNS</CHOICE>
+    <CHOICE>have anti-inflammatory actions</CHOICE>
+    <CHOICE>do not suppress hypothalamic - pituitary - adrenal function</CHOICE>
+    <CHOICE>include aldosterone</CHOICE>
+  </QUESTION>
+  
+  <QUESTION TEXT="7. Levothyroxine" 
+  	ANSWER="2" 
+  	DefaultFeedback="Thyroxine is synthesised in the thyroid gland, although this synthesis is controlled from the pituitary. Since thyroxin is required continuously (not just for growth) it is usually to give it orally on a permanent basis. It will only promote growth in young hypothyroid animals. Glipizide is an anti-diabetic drug.">
+  	<CHOICE>is synthesised in the anterior pituitary</CHOICE>
+    <CHOICE>is effective when swallowed</CHOICE>
+    <CHOICE>can act as a growth promoter</CHOICE>
+    <CHOICE>synthesis is reduced by glipizide</CHOICE>
+    <CHOICE>reduces oxygen consumption in most tissues</CHOICE>
+  </QUESTION>
+  
+  <QUESTION TEXT="8. Prolactin" 
+  	ANSWER="1" 
+  	DefaultFeedback="Prolactin, like the other anterior pituitary hormones, is under tonic inhibitory dopaminergic control from the hypothalamus. This means that dopamine antagonists increase its secretion and dopamine agonists like bromocriptine reduce its secretion. It is not used clinically.">
+  	<CHOICE>is secreted from the anterior pituitary</CHOICE>
+    <CHOICE>secretion is inhibited by dopamine receptor antagonists</CHOICE>
+	<CHOICE>secretion is increased by bromocriptine</CHOICE>
+    <CHOICE>inhibits the release of growth hormone</CHOICE>
+    <CHOICE>is used to treat infertility</CHOICE>
+  </QUESTION>
+  
+  <QUESTION TEXT="9. Insulin" 
+  	ANSWER="4" 
+  	DefaultFeedback="Insulin comes from the b cells. It is a peptide so it is rapidly broken down in the stomach. Its actions generally oppose those of glucagon. Its release is increased by &#945;2 antagonists (acting at imidazoline I3 receptors).">
+  	<CHOICE>is synthesised in the a cells of the islets of Langerhans</CHOICE>
+    <CHOICE>is effective orally when combined with zinc</CHOICE>
+    <CHOICE>can be antagonised by potassium</CHOICE>
+    <CHOICE>has actions opposite to glucagon</CHOICE>
+    <CHOICE>is potentiated by non selective b adrenoceptor blockers</CHOICE>
+  </QUESTION>
+  
+  <QUESTION TEXT="10. Hyperthyroidism in the cat"
+  ANSWER="5" 
+  	DefaultFeedback="Hypothyroidism causes alopecia and weight gain. Radioactive iodine reduces thyroxin synthesis. Thyrotrophin is usually reduced by negative feedback, but this is not characteristic. CHF is often the presenting sign of hyperthyroidism in cats.">
+  	<CHOICE>causes alopecia</CHOICE>
+    <CHOICE>results in an increase in body weight</CHOICE>
+    <CHOICE>can be treated with tritium</CHOICE>
+    <CHOICE>is characterised by a decrease in thyrotrophin</CHOICE>
+    <CHOICE>can result in congestive heart failure</CHOICE>
+  </QUESTION>
+   
+</QUIZ>

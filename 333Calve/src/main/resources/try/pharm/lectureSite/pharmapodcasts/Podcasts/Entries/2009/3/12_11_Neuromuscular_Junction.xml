@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<content collectionGUID="5F455181-632A-461D-8A0F-A931ADEC6705">
+  <lastEdited clientType="local-build-20090324" date="2009-03-24 09:09:11 +1300"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;11 Neuromuscular Junction&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Thursday, 12 March 2009&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Drugs which cause paralysis by blocking the neuromuscular junction and why not to use them unless you know what you are doing. Suxamethonium and competitive blockers - atracurium, vecuronium and others. Uses and precautions.&lt;/b&gt;</richText>
+  </textBox>
+</content>

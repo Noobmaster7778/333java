@@ -1,0 +1,64 @@
+.indentmenu{ 
+	padding-top: 10px;
+	text-align:center;
+	font: bold 10px Verdana;
+/*	width: 100%; /*leave this value as is in most cases*/
+	overflow: hidden;
+}
+
+
+
+.indentmenu ul{
+	margin-left:auto;
+	margin-right:auto; 
+ 	text-align:center;
+	padding: 0;  
+	list-style:none; /* turns off bullet points */
+	list-style-position:inside;
+
+/*	border-width: 1px 0;  */
+
+}
+
+.indentmenu ul li {
+
+	display: inline; 
+	margin:0; 
+
+/*	text-align:left; */
+}
+
+.indentmenu ul li a{
+/*	float: left;  */
+
+	background: black url(images/indentbg.gif) center center repeat-x;
+	color: white; /*text color*/
+	padding: 5px 11px 5px 11px;
+	text-decoration: none;
+	border-right: 1px solid #FFFFFF; 
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	 /*dark green border*/
+ /*dark green divider between menu items*/
+}
+
+.indentmenu ul li a.first {
+	border-left: 1px solid #FFFFFF;
+}
+
+
+
+.indentmenu ul li a:visited{
+	color: white;
+}
+
+.indentmenu ul li a:hover {
+
+	line-height:2;
+
+	color: white !important; /*text color of selected and active item*/
+/*	padding-top: 6px; /*shift text down 1px for selected and active item*/
+/*	padding-bottom: 4px; /*shift text down 1px for selected and active item*/
+	background: black url(images/indentbg2.gif) center center repeat-x;
+}
+

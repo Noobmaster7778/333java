@@ -1,0 +1,67 @@
+body   { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;  
+	background-color: #E0FFFF;  
+	}
+h1   { 
+	background-repeat: no-repeat; 
+	background-image: url(images/pig36x.png); 
+	background-position: right; 
+	font-size: 24px; 
+	text-shadow: 2px 2px 2px #7e7e7e; 
+	font-weight: bold; 
+	background-color: yellow;
+	 }
+h2 { /* same as .title */
+	font-size: 18px; 
+	text-shadow: 2px 2px 1px #7e7e7e; 
+	font-weight: bold; 
+	background-color: yellow; 
+	}
+h3 { 
+	font-size: 14px; 
+	text-shadow: 1px 1px 1px #7e7e7e; 
+	font-weight: bold; 
+	background-color: yellow; 
+	}
+p {
+	font-size: 0.9em;
+	margin: 0;
+	}
+a { 
+	font-size: 0.9em; 
+	}
+#sidemenu { 
+	margin: 0px; 
+	background-color: #7fff7f; 
+	padding-left: 10px; 
+	padding-top: 50px; 
+	height: 100%; 
+	width: 80px; 
+	float: left; 
+	position: absolute; 
+	}
+#text { 
+	margin-left: 100px; 
+	}
+.title   { 
+	font-size: 16px; 
+	text-shadow: 1px 1px 1px #7e7e7e; 
+	font-weight: bold; 
+	background-color: #0ff; 
+	}
+.area { 
+	color: navy;
+	font-weight: bold;
+	}
+.current {
+	font-size: 1em;
+	font-weight: bold;
+	color:blue;
+}
+
+.Green {
+	background-color: #0f0;
+	}
+.Yellow {
+	background-color: yellow;
+	}
