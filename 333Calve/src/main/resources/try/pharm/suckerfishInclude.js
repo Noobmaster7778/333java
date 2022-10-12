@@ -1,1 +1,0 @@
-document.write("<p>Blah blah blah</p>");
